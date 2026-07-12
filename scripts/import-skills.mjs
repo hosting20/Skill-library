@@ -30,6 +30,16 @@ const SEARCH_QUERIES = [
   "skill in:name topic:claude-code",
   "skill in:name topic:claude",
   "topic:ai-skills topic:claude-code",
+  // Skills that self-describe as "agent skill" without mentioning Claude (e.g. shadcn/improve)
+  '"agent skill" in:name,description',
+];
+
+// Always included regardless of search discovery. Add repos here when a
+// known skill keeps slipping through the queries. Optional `install`
+// overrides the generic git-clone snippet.
+const PINNED_REPOS = [
+  { repo: "shadcn/improve", install: "npx skills add shadcn/improve" },
+  { repo: "nextlevelbuilder/ui-ux-pro-max-skill" },
 ];
 
 const AWESOME_LISTS = [
@@ -223,9 +233,32 @@ async function enrichStars(entries) {
   }
 }
 
+async function pinnedRepos(known) {
+  const found = new Map();
+  for (const pin of PINNED_REPOS) {
+    const key = pin.repo.toLowerCase();
+    const existing = known.get(key) || found.get(key);
+    if (existing) {
+      if (pin.install) existing.install = pin.install;
+      continue;
+    }
+    try {
+      const r = await ghJson(`https://api.github.com/repos/${pin.repo}`);
+      const entry = repoEntry(r);
+      if (pin.install) entry.install = pin.install;
+      found.set(key, entry);
+    } catch (e) {
+      console.warn(`pinned repo ${pin.repo} failed: ${e.message}`);
+    }
+  }
+  console.log(`pinned repos: +${found.size}`);
+  return found;
+}
+
 async function main() {
   console.log("Importing Claude skills catalog from GitHub…\n");
   const searched = await searchRepos();
+  for (const [k, v] of await pinnedRepos(searched)) searched.set(k, v);
   const official = await officialSkills();
   const awesome = await awesomeListRepos(searched);
 
