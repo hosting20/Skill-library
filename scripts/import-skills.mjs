@@ -26,6 +26,10 @@ const SEARCH_QUERIES = [
   "topic:agent-skills",
   '"claude skills" in:name,description',
   '"claude skill" in:name,description',
+  // Catch skills tagged only with generic claude topics (e.g. ui-ux-pro-max-skill)
+  "skill in:name topic:claude-code",
+  "skill in:name topic:claude",
+  "topic:ai-skills topic:claude-code",
 ];
 
 const AWESOME_LISTS = [

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-12T10:04:22.167Z",
+  "generatedAt": "2026-07-12T10:14:05.383Z",
   "entries": [
     {
       "id": "obra-superpowers",
@@ -7,7 +7,7 @@
       "category": "Collections",
       "author": "obra",
       "repo": "https://github.com/obra/superpowers",
-      "stars": 252705,
+      "stars": 252707,
       "dateAdded": "2025-10-09",
       "description": "An agentic skills framework & software development methodology that works.",
       "source": "community",
@@ -248,12 +248,24 @@
       "repoKey": "anthropics/skills#template-skill"
     },
     {
+      "id": "nextlevelbuilder-ui-ux-pro-max-skill",
+      "title": "ui-ux-pro-max-skill",
+      "category": "Design & Creative",
+      "author": "nextlevelbuilder",
+      "repo": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "stars": 104535,
+      "dateAdded": "2025-11-30",
+      "description": "An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms",
+      "source": "community",
+      "repoKey": "nextlevelbuilder/ui-ux-pro-max-skill"
+    },
+    {
       "id": "thedotmack-claude-mem",
       "title": "claude-mem",
       "category": "Other",
       "author": "thedotmack",
       "repo": "https://github.com/thedotmack/claude-mem",
-      "stars": 86905,
+      "stars": 86907,
       "dateAdded": "2025-08-31",
       "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
       "source": "community",
@@ -265,7 +277,7 @@
       "category": "Other",
       "author": "DietrichGebert",
       "repo": "https://github.com/DietrichGebert/ponytail",
-      "stars": 80992,
+      "stars": 80993,
       "dateAdded": "2026-06-12",
       "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
       "source": "community",
@@ -277,7 +289,7 @@
       "category": "Development",
       "author": "addyosmani",
       "repo": "https://github.com/addyosmani/agent-skills",
-      "stars": 77446,
+      "stars": 77448,
       "dateAdded": "2026-02-15",
       "description": "Production-grade engineering skills for AI coding agents.",
       "source": "community",
@@ -289,7 +301,7 @@
       "category": "Documents",
       "author": "nexu-io",
       "repo": "https://github.com/nexu-io/open-design",
-      "stars": 77435,
+      "stars": 77437,
       "dateAdded": "2026-04-28",
       "description": "🎨 The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images & video — real files, HTML/PDF/PPTX/MP4 export. 🤖 Claude Code / Codex / Cursor / Gemini / OpenCode / Qwen & 20+ CLIs via BYOK.",
       "source": "community",
@@ -301,7 +313,7 @@
       "category": "Other",
       "author": "Egonex-AI",
       "repo": "https://github.com/Egonex-AI/Understand-Anything",
-      "stars": 73407,
+      "stars": 73410,
       "dateAdded": "2026-03-15",
       "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
       "source": "community",
@@ -325,7 +337,7 @@
       "category": "Development",
       "author": "code-yeongyu",
       "repo": "https://github.com/code-yeongyu/oh-my-openagent",
-      "stars": 65589,
+      "stars": 65591,
       "dateAdded": "2025-12-03",
       "description": "omo/lazycodex: The coding agent for tokenmaxxers;the one and only agent harness for complex codebases. For your Codex, for your OpenCode",
       "source": "community",
@@ -337,11 +349,47 @@
       "category": "Other",
       "author": "gsd-build",
       "repo": "https://github.com/gsd-build/get-shit-done",
-      "stars": 64740,
+      "stars": 64741,
       "dateAdded": "2025-12-14",
       "description": "A light-weight and powerful meta-prompting, context engineering and spec-driven development system for Claude Code by TÂCHES.",
       "source": "community",
       "repoKey": "gsd-build/get-shit-done"
+    },
+    {
+      "id": "ruvnet-ruflo",
+      "title": "ruflo",
+      "category": "Workflows",
+      "author": "ruvnet",
+      "repo": "https://github.com/ruvnet/ruflo",
+      "stars": 64099,
+      "dateAdded": "2025-06-02",
+      "description": "🌊 The leading agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
+      "source": "community",
+      "repoKey": "ruvnet/ruflo"
+    },
+    {
+      "id": "leonxlnx-taste-skill",
+      "title": "taste-skill",
+      "category": "Other",
+      "author": "Leonxlnx",
+      "repo": "https://github.com/Leonxlnx/taste-skill",
+      "stars": 62271,
+      "dateAdded": "2026-02-19",
+      "description": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
+      "source": "community",
+      "repoKey": "leonxlnx/taste-skill"
+    },
+    {
+      "id": "mvanhorn-last30days-skill",
+      "title": "last30days-skill",
+      "category": "Other",
+      "author": "mvanhorn",
+      "repo": "https://github.com/mvanhorn/last30days-skill",
+      "stars": 51637,
+      "dateAdded": "2026-01-23",
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "source": "community",
+      "repoKey": "mvanhorn/last30days-skill"
     },
     {
       "id": "voltagent-awesome-openclaw-skills",
@@ -349,7 +397,7 @@
       "category": "Collections",
       "author": "VoltAgent",
       "repo": "https://github.com/VoltAgent/awesome-openclaw-skills",
-      "stars": 51135,
+      "stars": 51137,
       "dateAdded": "2026-01-25",
       "description": "The awesome collection of OpenClaw skills. 5,400+ skills filtered and categorized from the official OpenClaw Skills Registry.🦞",
       "source": "collection",
@@ -373,7 +421,7 @@
       "category": "Workflows",
       "author": "CherryHQ",
       "repo": "https://github.com/CherryHQ/cherry-studio",
-      "stars": 48458,
+      "stars": 48459,
       "dateAdded": "2024-05-24",
       "description": "AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs",
       "source": "community",
@@ -392,6 +440,18 @@
       "repoKey": "sickn33/agentic-awesome-skills"
     },
     {
+      "id": "kepano-obsidian-skills",
+      "title": "obsidian-skills",
+      "category": "Design & Creative",
+      "author": "kepano",
+      "repo": "https://github.com/kepano/obsidian-skills",
+      "stars": 41056,
+      "dateAdded": "2026-01-02",
+      "description": "Agent skills for Obsidian. Teach your agent to use Obsidian CLI and open formats including Markdown, Bases, JSON Canvas.",
+      "source": "community",
+      "repoKey": "kepano/obsidian-skills"
+    },
+    {
       "id": "wshobson-agents",
       "title": "agents",
       "category": "Collections",
@@ -404,12 +464,24 @@
       "repoKey": "wshobson/agents"
     },
     {
+      "id": "imbad0202-academic-research-skills",
+      "title": "academic-research-skills",
+      "category": "Other",
+      "author": "Imbad0202",
+      "repo": "https://github.com/Imbad0202/academic-research-skills",
+      "stars": 37421,
+      "dateAdded": "2026-02-26",
+      "description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
+      "source": "community",
+      "repoKey": "imbad0202/academic-research-skills"
+    },
+    {
       "id": "github-awesome-copilot",
       "title": "awesome-copilot",
       "category": "Collections",
       "author": "github",
       "repo": "https://github.com/github/awesome-copilot",
-      "stars": 36470,
+      "stars": 36471,
       "dateAdded": "2025-06-11",
       "description": "Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot.",
       "source": "collection",
@@ -421,7 +493,7 @@
       "category": "Collections",
       "author": "K-Dense-AI",
       "repo": "https://github.com/K-Dense-AI/scientific-agent-skills",
-      "stars": 30724,
+      "stars": 30726,
       "dateAdded": "2025-10-19",
       "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 160,000+ scientists worldwide. 140 ready-to-use skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
       "source": "community",
@@ -433,7 +505,7 @@
       "category": "Other",
       "author": "K-Dense-AI",
       "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
-      "stars": 30724,
+      "stars": 30726,
       "dateAdded": "2025-10-19",
       "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 160,000+ scientists worldwide. 140 ready-to-use skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
       "source": "community",
@@ -445,7 +517,7 @@
       "category": "Security",
       "author": "nanocoai",
       "repo": "https://github.com/nanocoai/nanoclaw",
-      "stars": 30201,
+      "stars": 30202,
       "dateAdded": "2026-01-31",
       "description": "A lightweight alternative to OpenClaw that runs in containers for security. Connects to WhatsApp, Telegram, Slack, Discord, Gmail and other messaging apps,, has memory, scheduled jobs, and runs directly on Anthropic's Agents SDK",
       "source": "community",
@@ -457,7 +529,7 @@
       "category": "Other",
       "author": "googleworkspace",
       "repo": "https://github.com/googleworkspace/cli",
-      "stars": 29616,
+      "stars": 29617,
       "dateAdded": "2026-03-02",
       "description": "Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills.",
       "source": "community",
@@ -488,12 +560,24 @@
       "repoKey": "topoteretes/cognee"
     },
     {
+      "id": "mukul975-anthropic-cybersecurity-skills",
+      "title": "Anthropic-Cybersecurity-Skills",
+      "category": "Security",
+      "author": "mukul975",
+      "repo": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "stars": 25344,
+      "dateAdded": "2026-02-25",
+      "description": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 29 security domains · Apache 2.0",
+      "source": "community",
+      "repoKey": "mukul975/anthropic-cybersecurity-skills"
+    },
+    {
       "id": "zarazhangrui-frontend-slides",
       "title": "frontend-slides",
       "category": "Development",
       "author": "zarazhangrui",
       "repo": "https://github.com/zarazhangrui/frontend-slides",
-      "stars": 25223,
+      "stars": 25224,
       "dateAdded": "2026-01-28",
       "description": "Create beautiful slides on the web using a coding agent's frontend skills",
       "source": "community",
@@ -560,12 +644,24 @@
       "repoKey": "alirezarezvani/claude-skills"
     },
     {
+      "id": "op7418-guizang-ppt-skill",
+      "title": "guizang-ppt-skill",
+      "category": "Design & Creative",
+      "author": "op7418",
+      "repo": "https://github.com/op7418/guizang-ppt-skill",
+      "stars": 21040,
+      "dateAdded": "2026-04-23",
+      "description": "AI-agent Skill for generating polished HTML slide decks: editorial magazine and Swiss layouts, image prompts, social covers, and a WebGL/low-power presentation runtime.",
+      "source": "community",
+      "repoKey": "op7418/guizang-ppt-skill"
+    },
+    {
       "id": "teng-lin-notebooklm-py",
       "title": "notebooklm-py",
       "category": "Data & Visualization",
       "author": "teng-lin",
       "repo": "https://github.com/teng-lin/notebooklm-py",
-      "stars": 17624,
+      "stars": 17625,
       "dateAdded": "2026-01-07",
       "description": "Unofficial Python API and agentic skill for Google NotebookLM. Full programmatic access to NotebookLM's features—including capabilities the web UI doesn't expose—via Python, CLI, and AI agents like Claude Code, Codex, and OpenClaw.",
       "source": "community",
@@ -709,7 +805,7 @@
       "category": "Workflows",
       "author": "nidhinjs",
       "repo": "https://github.com/nidhinjs/prompt-master",
-      "stars": 10428,
+      "stars": 10429,
       "dateAdded": "2026-03-11",
       "description": "A Claude skill that writes the accurate prompts for any AI tool. Zero tokens or credits wasted. Full context and memory retention",
       "source": "community",
@@ -728,6 +824,18 @@
       "repoKey": "behisecc/awesome-claude-skills"
     },
     {
+      "id": "conardli-garden-skills",
+      "title": "garden-skills",
+      "category": "Collections",
+      "author": "ConardLi",
+      "repo": "https://github.com/ConardLi/garden-skills",
+      "stars": 9422,
+      "dateAdded": "2026-04-21",
+      "description": "ConardLi's open-source Skills collection, featuring web design, knowledge retrieval, image generation, and more.",
+      "source": "community",
+      "repoKey": "conardli/garden-skills"
+    },
+    {
       "id": "agricidaniel-claude-obsidian",
       "title": "claude-obsidian",
       "category": "Other",
@@ -738,18 +846,6 @@
       "description": "Self-organizing AI second brain for Obsidian + Claude Code. Drop any source and Claude reads, links, and files it into one connected knowledge graph of plain Markdown you own. AI note-taking, personal knowledge management (PKM), and an open-source Notion alternative. Based on Karpathy's LLM Wiki pattern.",
       "source": "community",
       "repoKey": "agricidaniel/claude-obsidian"
-    },
-    {
-      "id": "ykdojo-claude-code-tips",
-      "title": "claude-code-tips",
-      "category": "Other",
-      "author": "ykdojo",
-      "repo": "https://github.com/ykdojo/claude-code-tips",
-      "stars": 9197,
-      "dateAdded": "2025-11-28",
-      "description": "40+ tips for getting the most out of Claude Code, from basics to advanced - includes a custom status line script and Claude Code running itself in a container. Also includes the dx plugin: skills for everyday dev workflows.",
-      "source": "community",
-      "repoKey": "ykdojo/claude-code-tips"
     },
     {
       "id": "xixu-me-xget",
@@ -769,7 +865,7 @@
       "category": "Development",
       "author": "nexu-io",
       "repo": "https://github.com/nexu-io/html-anything",
-      "stars": 7706,
+      "stars": 7707,
       "dateAdded": "2026-05-11",
       "description": "✨ The agentic HTML editor — your local AI agent writes the HTML, you ship it. 🚀 75 Skills × 9 Surfaces (magazine · deck · poster · XHS / tweet · prototype · data report · Hyperframes) 🛡️ Sandboxed preview · 📤 1-click to WeChat / X / Zhihu / HTML / PNG 🔑 Zero API key — Claude Code / Cursor / Codex / Gemini / Copilot / OpenCode / Qwen / Aider.",
       "source": "community",
@@ -786,18 +882,6 @@
       "description": "The first open-source agent skills builder. Define skills by vibe workflow, run on Claude Code, Cursor, Codex & more. Build Clawdbot 🦞· APIs for Lovable · Bots for Slack & Lark/Feishu · Skills are infrastructure, not prompts.",
       "source": "community",
       "repoKey": "refly-ai/refly"
-    },
-    {
-      "id": "pleaseprompto-notebooklm-skill",
-      "title": "notebooklm-skill",
-      "category": "Documents",
-      "author": "PleasePrompto",
-      "repo": "https://github.com/PleasePrompto/notebooklm-skill",
-      "stars": 7362,
-      "dateAdded": "2025-10-19",
-      "description": "Use this skill to enable Claude Code to communicate directly with your Google NotebookLM notebooks. Query your uploaded documents and get source-grounded, citation-backed answers from Gemini. Features browser automation, library management, persistent authentication, and answers exclusively from your own knowledge base.",
-      "source": "community",
-      "repoKey": "pleaseprompto/notebooklm-skill"
     },
     {
       "id": "jnmetacode-superpowers-zh",
@@ -865,7 +949,7 @@
       "category": "Security",
       "author": "trailofbits",
       "repo": "https://github.com/trailofbits/skills",
-      "stars": 6076,
+      "stars": 6077,
       "dateAdded": "2026-01-14",
       "description": "Trail of Bits Claude Code skills for security research, vulnerability detection, and audit workflows",
       "source": "community",
@@ -925,7 +1009,7 @@
       "category": "Collections",
       "author": "antfu",
       "repo": "https://github.com/antfu/skills",
-      "stars": 5521,
+      "stars": 5522,
       "dateAdded": "2026-01-28",
       "description": "Anthony Fu's curated collection of agent skills.",
       "source": "community",
@@ -978,6 +1062,18 @@
       "description": "🪧 Claude Code / Codex skill — generate Xiaohongshu carousels & WeChat 21:9+1:1 cover pairs. Editorial × Swiss visual systems, 28 layouts, 10 themes, single-file HTML → PNG. 小红书图文 + 公众号封面对",
       "source": "community",
       "repoKey": "op7418/guizang-social-card-skill"
+    },
+    {
+      "id": "tech-leads-club-agent-skills",
+      "title": "agent-skills",
+      "category": "Development",
+      "author": "tech-leads-club",
+      "repo": "https://github.com/tech-leads-club/agent-skills",
+      "stars": 4861,
+      "dateAdded": "2026-01-19",
+      "description": "The secure, validated skill registry for professional AI coding agents. Extend Antigravity, Claude Code, Cursor, Copilot and more with absolute confidence.",
+      "source": "community",
+      "repoKey": "tech-leads-club/agent-skills"
     },
     {
       "id": "gosom-google-maps-scraper",
@@ -1093,7 +1189,7 @@
       "category": "Design & Creative",
       "author": "tt-a1i",
       "repo": "https://github.com/tt-a1i/archify",
-      "stars": 3799,
+      "stars": 3800,
       "dateAdded": "2026-04-15",
       "description": "Any agent Skill: generate beautiful architecture diagrams with dark/light theme toggle and PNG/JPEG/WebP/SVG export",
       "source": "community",
@@ -1194,18 +1290,6 @@
       "description": "Agent Skill for generating 2D sprite sheets and map, transparent PNG frames, and animated GIFs from prompts.",
       "source": "community",
       "repoKey": "0x0funky/agent-sprite-forge"
-    },
-    {
-      "id": "yvgude-lean-ctx",
-      "title": "lean-ctx",
-      "category": "Development",
-      "author": "yvgude",
-      "repo": "https://github.com/yvgude/lean-ctx",
-      "stars": 3223,
-      "dateAdded": "2026-03-23",
-      "description": "Control what your AI can see. LeanCTX (Lean Context) is the context intelligence layer for AI agents — one local Rust binary that decides what they read, remembers what they learn, guards what they touch, and proves what they save. 60–90% fewer tokens as the receipt. 76 MCP tools, 30+ agents, local-first.",
-      "source": "community",
-      "repoKey": "yvgude/lean-ctx"
     },
     {
       "id": "geekjourneyx-md2wechat-skill",
@@ -1328,6 +1412,18 @@
       "repoKey": "lackeyjb/playwright-skill"
     },
     {
+      "id": "freedomintelligence-openclaw-medical-skills",
+      "title": "OpenClaw-Medical-Skills",
+      "category": "Collections",
+      "author": "FreedomIntelligence",
+      "repo": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills",
+      "stars": 2827,
+      "dateAdded": "2026-03-08",
+      "description": "The largest open-source medical AI skills library for OpenClaw🦞.",
+      "source": "community",
+      "repoKey": "freedomintelligence/openclaw-medical-skills"
+    },
+    {
       "id": "ar9av-obsidian-wiki",
       "title": "obsidian-wiki",
       "category": "Development",
@@ -1338,6 +1434,18 @@
       "description": "Framework for AI agents to build and maintain a digital brain through Obsidian wiki using Karpathy's LLM Wiki pattern",
       "source": "community",
       "repoKey": "ar9av/obsidian-wiki"
+    },
+    {
+      "id": "op7418-claude-to-im-skill",
+      "title": "Claude-to-IM-skill",
+      "category": "Development",
+      "author": "op7418",
+      "repo": "https://github.com/op7418/Claude-to-IM-skill",
+      "stars": 2809,
+      "dateAdded": "2026-03-05",
+      "description": "Bridge Claude Code / Codex to IM platforms — chat with AI coding agents from Telegram, Discord, or Feishu/Lark.",
+      "source": "community",
+      "repoKey": "op7418/claude-to-im-skill"
     },
     {
       "id": "brycewang-stanford-auto-empirical-research-skills",
@@ -1417,7 +1525,7 @@
       "category": "Other",
       "author": "inkeep",
       "repo": "https://github.com/inkeep/open-knowledge",
-      "stars": 2680,
+      "stars": 2681,
       "dateAdded": "2026-06-03",
       "description": "Beautiful, AI-native markdown editor and LLM wiki",
       "source": "community",
@@ -1496,6 +1604,18 @@
       "repoKey": "jeremylongshore/claude-code-plugins-plus-skills"
     },
     {
+      "id": "chuspeeism-dashiai-ppt-skill",
+      "title": "dashiAI-ppt-skill",
+      "category": "Documents",
+      "author": "chuspeeism",
+      "repo": "https://github.com/chuspeeism/dashiAI-ppt-skill",
+      "stars": 2494,
+      "dateAdded": "2026-06-10",
+      "description": "An AI-agent skill that generates browser-editable presentations from multiple visual themes, exportable to HTML, PDF, and PPTX.",
+      "source": "community",
+      "repoKey": "chuspeeism/dashiai-ppt-skill"
+    },
+    {
       "id": "addyosmani-web-quality-skills",
       "title": "web-quality-skills",
       "category": "Other",
@@ -1525,11 +1645,23 @@
       "category": "Design & Creative",
       "author": "glincker",
       "repo": "https://github.com/glincker/thesvg",
-      "stars": 2429,
+      "stars": 2430,
       "dateAdded": "2026-03-07",
       "description": "6,400+ brand SVG icons for developers. Tree-shakeable, typed, open source. npm i thesvg",
       "source": "community",
       "repoKey": "glincker/thesvg"
+    },
+    {
+      "id": "runkids-skillshare",
+      "title": "skillshare",
+      "category": "Other",
+      "author": "runkids",
+      "repo": "https://github.com/runkids/skillshare",
+      "stars": 2397,
+      "dateAdded": "2026-01-14",
+      "description": "📚 Sync skills across all AI CLI tools with one command and simplify team sharing. Supporting Codex, Claude Code, OpenClaw & more",
+      "source": "community",
+      "repoKey": "runkids/skillshare"
     },
     {
       "id": "foryourhealth111-pixel-vibe-skills",
@@ -1700,6 +1832,18 @@
       "repoKey": "denissergeevitch/agents-best-practices"
     },
     {
+      "id": "iamzhihuix-skills-manage",
+      "title": "skills-manage",
+      "category": "Development",
+      "author": "iamzhihuix",
+      "repo": "https://github.com/iamzhihuix/skills-manage",
+      "stars": 2086,
+      "dateAdded": "2026-04-13",
+      "description": "Desktop app to manage AI coding agent skills across Claude Code, Cursor, Gemini CLI, Codex, and 20+ platforms from one place.",
+      "source": "community",
+      "repoKey": "iamzhihuix/skills-manage"
+    },
+    {
       "id": "jherrodthomas-automotive-skills-suite",
       "title": "automotive-skills-suite",
       "category": "Security",
@@ -1724,6 +1868,18 @@
       "repoKey": "yaojingang/yao-meta-skill"
     },
     {
+      "id": "isjiamu-gzh-design-skill",
+      "title": "gzh-design-skill",
+      "category": "Design & Creative",
+      "author": "isjiamu",
+      "repo": "https://github.com/isjiamu/gzh-design-skill",
+      "stars": 1937,
+      "dateAdded": "2026-07-01",
+      "description": "把 Markdown 一键排成可直接粘进公众号编辑器的精致 HTML —— 6 套精选主题 + 主题生成器 + 双关卡校验。An AI-agent skill that turns Markdown into paste-ready WeChat article HTML.",
+      "source": "community",
+      "repoKey": "isjiamu/gzh-design-skill"
+    },
+    {
       "id": "elementalsouls-claude-osint",
       "title": "Claude-OSINT",
       "category": "Other",
@@ -1734,6 +1890,18 @@
       "description": "Two paired Claude skills · 90+ recon modules · 48 secret-regex patterns · 80+ dorks · 9 read-only credential validators · 27 attack-path templates · 5,500+ lines of structured tradecraft. Drop-in SKILL.md files that turn Claude into a god-mode external recon operator for authorized red-team and bug-bounty engagements.",
       "source": "community",
       "repoKey": "elementalsouls/claude-osint"
+    },
+    {
+      "id": "owl-listener-designer-skills",
+      "title": "designer-skills",
+      "category": "Collections",
+      "author": "Owl-Listener",
+      "repo": "https://github.com/Owl-Listener/designer-skills",
+      "stars": 1820,
+      "dateAdded": "2026-03-07",
+      "description": "Designer Skills Collection: agentic skills, commands, and plugins for design — from research to systems, UI, interaction, and delivery.",
+      "source": "community",
+      "repoKey": "owl-listener/designer-skills"
     },
     {
       "id": "composio-community-awesome-claude-plugins",
@@ -1808,12 +1976,24 @@
       "repoKey": "nolangz/pixel2motion"
     },
     {
+      "id": "weizhena-deep-research-skills",
+      "title": "Deep-Research-skills",
+      "category": "Other",
+      "author": "Weizhena",
+      "repo": "https://github.com/Weizhena/Deep-Research-skills",
+      "stars": 1614,
+      "dateAdded": "2025-12-29",
+      "description": "Structured deep research skill for Claude Code/Open Code/Codex with human-in-the-loop control",
+      "source": "community",
+      "repoKey": "weizhena/deep-research-skills"
+    },
+    {
       "id": "wondelai-skills",
       "title": "skills",
       "category": "Development",
       "author": "wondelai",
       "repo": "https://github.com/wondelai/skills",
-      "stars": 1611,
+      "stars": 1612,
       "dateAdded": "2026-01-29",
       "description": "Agent skills for Claude, Claude Code, Claude Cowork, Codex, Cursor, OpenClaw, Hermes Agent and other agentskills.io-compatible agents. See https://developertoolkit.ai to learn more how to use skills properly and create new ones.",
       "source": "community",
@@ -1842,18 +2022,6 @@
       "description": "Claude Code settings, commands and agents for vibe coding",
       "source": "community",
       "repoKey": "feiskyer/claude-code-settings"
-    },
-    {
-      "id": "alvinunreal-awesome-claude",
-      "title": "awesome-claude",
-      "category": "Collections",
-      "author": "alvinunreal",
-      "repo": "https://github.com/alvinunreal/awesome-claude",
-      "stars": 1570,
-      "dateAdded": "2025-08-14",
-      "description": "A curated list of awesome things related to Anthropic Claude",
-      "source": "community",
-      "repoKey": "alvinunreal/awesome-claude"
     },
     {
       "id": "codeaholicguy-ai-devkit",
@@ -1964,6 +2132,18 @@
       "repoKey": "huangserva/skill-prompt-generator"
     },
     {
+      "id": "besty0728-unity-skills",
+      "title": "Unity-Skills",
+      "category": "Design & Creative",
+      "author": "Besty0728",
+      "repo": "https://github.com/Besty0728/Unity-Skills",
+      "stars": 1418,
+      "dateAdded": "2026-01-18",
+      "description": "AI automation skills specifically designed for Unity",
+      "source": "community",
+      "repoKey": "besty0728/unity-skills"
+    },
+    {
       "id": "aipoch-medical-research-skills",
       "title": "medical-research-skills",
       "category": "Data & Visualization",
@@ -2022,6 +2202,18 @@
       "description": "Supercharge AI coding agents with portable skills. Install, translate & share skills across Claude Code, Cursor, Codex, Copilot & 40 more",
       "source": "community",
       "repoKey": "rohitg00/skillkit"
+    },
+    {
+      "id": "skills-directory-skill-codex",
+      "title": "skill-codex",
+      "category": "Other",
+      "author": "skills-directory",
+      "repo": "https://github.com/skills-directory/skill-codex",
+      "stars": 1364,
+      "dateAdded": "2025-10-21",
+      "description": "A claude code skill to delegate prompts to codex",
+      "source": "community",
+      "repoKey": "skills-directory/skill-codex"
     },
     {
       "id": "hesamsheikh-octogent",
@@ -2120,6 +2312,18 @@
       "repoKey": "specstoryai/getspecstory"
     },
     {
+      "id": "onvoyage-ai-gtm-engineer-skills",
+      "title": "gtm-engineer-skills",
+      "category": "Development",
+      "author": "onvoyage-ai",
+      "repo": "https://github.com/onvoyage-ai/gtm-engineer-skills",
+      "stars": 1253,
+      "dateAdded": "2026-02-26",
+      "description": "Claude Code skill for improving website AEO (AI Engine Optimization) and GEO (Generative Engine Optimization) scores — 16 foundational checks, 6 intelligence dimensions, framework-specific fixes",
+      "source": "community",
+      "repoKey": "onvoyage-ai/gtm-engineer-skills"
+    },
+    {
       "id": "bayramannakov-claude-reflect",
       "title": "claude-reflect",
       "category": "Other",
@@ -2130,18 +2334,6 @@
       "description": "A self-learning system for Claude Code that captures corrections, positive feedback, and preferences — then syncs them to CLAUDE.md and AGENTS.md.",
       "source": "community",
       "repoKey": "bayramannakov/claude-reflect"
-    },
-    {
-      "id": "neolabhq-context-engineering-kit",
-      "title": "context-engineering-kit",
-      "category": "Other",
-      "author": "NeoLabHQ",
-      "repo": "https://github.com/NeoLabHQ/context-engineering-kit",
-      "stars": 1224,
-      "dateAdded": "2025-11-13",
-      "description": "Hand-crafted Claude Code Skills focused on improving agent results quality. Compatible with OpenCode, Cursor, Antigravity, Gemini CLI, and others.",
-      "source": "community",
-      "repoKey": "neolabhq/context-engineering-kit"
     },
     {
       "id": "minsight-ai-info-ai-search-hub",
@@ -2192,6 +2384,30 @@
       "repoKey": "conorluddy/ios-simulator-skill"
     },
     {
+      "id": "resciencelab-opc-skills",
+      "title": "opc-skills",
+      "category": "Other",
+      "author": "ReScienceLab",
+      "repo": "https://github.com/ReScienceLab/opc-skills",
+      "stars": 1140,
+      "dateAdded": "2026-01-17",
+      "description": "Agent Skills for Solopreneurs",
+      "source": "community",
+      "repoKey": "resciencelab/opc-skills"
+    },
+    {
+      "id": "refoundai-lenny-skills",
+      "title": "lenny-skills",
+      "category": "Other",
+      "author": "RefoundAI",
+      "repo": "https://github.com/RefoundAI/lenny-skills",
+      "stars": 1138,
+      "dateAdded": "2026-01-29",
+      "description": "86 product management skills from Lenny's Podcast for Claude Code and AI agents. Hiring, user research, strategy, shipping, and more.",
+      "source": "community",
+      "repoKey": "refoundai/lenny-skills"
+    },
+    {
       "id": "itsmostafa-aws-agent-skills",
       "title": "aws-agent-skills",
       "category": "Other",
@@ -2204,6 +2420,18 @@
       "repoKey": "itsmostafa/aws-agent-skills"
     },
     {
+      "id": "cookiy-ai-user-research-skill",
+      "title": "user-research-skill",
+      "category": "Other",
+      "author": "cookiy-ai",
+      "repo": "https://github.com/cookiy-ai/user-research-skill",
+      "stars": 1118,
+      "dateAdded": "2026-04-10",
+      "description": "Cookiy AI Skill for AI agents (Claude, Codex, Cursor, OpenClaw) — end-to-end user research: AI interviews, synthetic users, quant surveys, participant recruitment.",
+      "source": "community",
+      "repoKey": "cookiy-ai/user-research-skill"
+    },
+    {
       "id": "adamlyttleapps-claude-skill-app-onboarding-questionnaire",
       "title": "claude-skill-app-onboarding-questionnaire",
       "category": "Design & Creative",
@@ -2214,6 +2442,18 @@
       "description": "A Claude Code skill that designs and builds high-converting questionnaire-style app onboarding flows — modelled on proven conversion patterns from top subscription apps like Mob, Headspace and Noom",
       "source": "community",
       "repoKey": "adamlyttleapps/claude-skill-app-onboarding-questionnaire"
+    },
+    {
+      "id": "moizibnyousaf-ai-agent-skills",
+      "title": "Ai-Agent-Skills",
+      "category": "Development",
+      "author": "MoizIbnYousaf",
+      "repo": "https://github.com/MoizIbnYousaf/Ai-Agent-Skills",
+      "stars": 1092,
+      "dateAdded": "2025-12-17",
+      "description": "Universal skill installer and package manager for AI coding agents. One command, 12+ runtimes. npx ai-agent-skills",
+      "source": "community",
+      "repoKey": "moizibnyousaf/ai-agent-skills"
     },
     {
       "id": "dgreenheck-webgpu-claude-skill",
@@ -2252,6 +2492,18 @@
       "repoKey": "aiwithremy/claude-skills-llm-council"
     },
     {
+      "id": "lishix520-academic-paper-skills",
+      "title": "academic-paper-skills",
+      "category": "Communication",
+      "author": "lishix520",
+      "repo": "https://github.com/lishix520/academic-paper-skills",
+      "stars": 1028,
+      "dateAdded": "2026-01-04",
+      "description": "Systematic framework for planning and writing academic papers using Claude Code. Includes strategist (planning) and composer (writing) skills with quality checkpoints.",
+      "source": "community",
+      "repoKey": "lishix520/academic-paper-skills"
+    },
+    {
       "id": "bevibing-tutor-skills",
       "title": "tutor-skills",
       "category": "Documents",
@@ -2262,6 +2514,18 @@
       "description": "A Claude Code skill that turns PDFs, docs, and codebases into Obsidian study vaults",
       "source": "community",
       "repoKey": "bevibing/tutor-skills"
+    },
+    {
+      "id": "jesseovo-last30days-skill-cn",
+      "title": "last30days-skill-cn",
+      "category": "Other",
+      "author": "Jesseovo",
+      "repo": "https://github.com/Jesseovo/last30days-skill-cn",
+      "stars": 1023,
+      "dateAdded": "2026-03-31",
+      "description": "last30days-cn 是一个 AI Agent 技能（Skill），能够自动搜索中国互联网 8 大主流平台最近 30 天的内容，综合分析后生成有据可查的研究报告。",
+      "source": "community",
+      "repoKey": "jesseovo/last30days-skill-cn"
     },
     {
       "id": "asklokesh-claudeskill-loki-mode",
@@ -2300,6 +2564,18 @@
       "repoKey": "gooseworks-ai/goose-skills"
     },
     {
+      "id": "amelnagdy-guard-skills",
+      "title": "guard-skills",
+      "category": "Development",
+      "author": "amElnagdy",
+      "repo": "https://github.com/amElnagdy/guard-skills",
+      "stars": 982,
+      "dateAdded": "2026-06-06",
+      "description": "Guard skills for coding agents, quality gates that catch AI-generated failure modes in code, tests, and docs",
+      "source": "community",
+      "repoKey": "amelnagdy/guard-skills"
+    },
+    {
       "id": "huangjia2019-claude-code-engineering",
       "title": "claude-code-engineering",
       "category": "Communication",
@@ -2312,6 +2588,18 @@
       "repoKey": "huangjia2019/claude-code-engineering"
     },
     {
+      "id": "voidful-hung-yi-lee-skill",
+      "title": "hung-yi-lee-skill",
+      "category": "Other",
+      "author": "voidful",
+      "repo": "https://github.com/voidful/hung-yi-lee-skill",
+      "stars": 931,
+      "dateAdded": "2026-04-08",
+      "description": "蒸餾李宏毅老師的skill，結合Karpathy的LLM，Fable 5加持 以及 本人親自訪談",
+      "source": "community",
+      "repoKey": "voidful/hung-yi-lee-skill"
+    },
+    {
       "id": "simonw-claude-skills",
       "title": "claude-skills",
       "category": "Other",
@@ -2322,6 +2610,18 @@
       "description": "The contents of /mnt/skills in Claude's code interpreter environment",
       "source": "community",
       "repoKey": "simonw/claude-skills"
+    },
+    {
+      "id": "guanyang-open-agent-hub",
+      "title": "open-agent-hub",
+      "category": "Development",
+      "author": "guanyang",
+      "repo": "https://github.com/guanyang/open-agent-hub",
+      "stars": 927,
+      "dateAdded": "2026-01-13",
+      "description": "A lightweight, zero-dependency CLI tool to manage and activate capabilities for AI coding assistants (such as Claude Code, Cursor, Trae, etc.).",
+      "source": "community",
+      "repoKey": "guanyang/open-agent-hub"
     },
     {
       "id": "jezweb-claude-skills",
@@ -2348,6 +2648,18 @@
       "repoKey": "synalinks/synalinks-skills"
     },
     {
+      "id": "jiweiyeah-skills-manager",
+      "title": "Skills-Manager",
+      "category": "Development",
+      "author": "jiweiyeah",
+      "repo": "https://github.com/jiweiyeah/Skills-Manager",
+      "stars": 880,
+      "dateAdded": "2026-02-06",
+      "description": "A high-performance desktop application for managing skills across multiple AI coding assistants. Seamlessly organize, sync, and share skills for Claude Code、Codex、Opencode and other AI tools. Built with Tauri 2.0, React 19, and Rust.",
+      "source": "community",
+      "repoKey": "jiweiyeah/skills-manager"
+    },
+    {
       "id": "instavm-coderunner",
       "title": "coderunner",
       "category": "Other",
@@ -2358,6 +2670,18 @@
       "description": "A local sandbox for your AI agents",
       "source": "community",
       "repoKey": "instavm/coderunner"
+    },
+    {
+      "id": "dpearson2699-swift-ios-skills",
+      "title": "swift-ios-skills",
+      "category": "Development",
+      "author": "dpearson2699",
+      "repo": "https://github.com/dpearson2699/swift-ios-skills",
+      "stars": 868,
+      "dateAdded": "2026-03-03",
+      "description": "Agent Skills for iOS 26+, Swift 6.3, SwiftUI, and modern Apple frameworks",
+      "source": "community",
+      "repoKey": "dpearson2699/swift-ios-skills"
     },
     {
       "id": "rohitg00-awesome-claude-design",
@@ -2372,6 +2696,18 @@
       "repoKey": "rohitg00/awesome-claude-design"
     },
     {
+      "id": "ai-builder-club-skills",
+      "title": "skills",
+      "category": "Other",
+      "author": "AI-Builder-Club",
+      "repo": "https://github.com/AI-Builder-Club/skills",
+      "stars": 844,
+      "dateAdded": "2026-06-14",
+      "description": "Codebase harness + loop engineer",
+      "source": "community",
+      "repoKey": "ai-builder-club/skills"
+    },
+    {
       "id": "alirezarezvani-claude-code-skill-factory",
       "title": "claude-code-skill-factory",
       "category": "Workflows",
@@ -2382,6 +2718,18 @@
       "description": "Claude Code Skill Factory — A powerful open-source toolkit for building and deploying production-ready Claude Skills, Code Agents, custom Slash Commands, and LLM Prompts at scale. Easily generate structured skill templates, automate workflow integration, and accelerate AI agent development with a clean, developer-friendly setup.",
       "source": "community",
       "repoKey": "alirezarezvani/claude-code-skill-factory"
+    },
+    {
+      "id": "zsyggg-paper-craft-skills",
+      "title": "paper-craft-skills",
+      "category": "Other",
+      "author": "zsyggg",
+      "repo": "https://github.com/zsyggg/paper-craft-skills",
+      "stars": 818,
+      "dateAdded": "2026-01-23",
+      "description": "Claude Code skills for academic papers: deep analysis, comics, summaries | 论文工艺：深度解读、漫画生成、速览总结",
+      "source": "community",
+      "repoKey": "zsyggg/paper-craft-skills"
     },
     {
       "id": "brownfinesecurity-iothackbot",
@@ -2456,6 +2804,18 @@
       "repoKey": "fcakyon/claude-codex-settings"
     },
     {
+      "id": "brycewang-stanford-awesome-journal-skills",
+      "title": "Awesome-Journal-Skills",
+      "category": "Collections",
+      "author": "brycewang-stanford",
+      "repo": "https://github.com/brycewang-stanford/Awesome-Journal-Skills",
+      "stars": 762,
+      "dateAdded": "2026-05-25",
+      "description": "Journal-specific Claude Code/Codex skill packs covering mainstream journals — AER, QJE, Nature, Cell, 管理世界, 经济研究 & 200+ more — your fast track to getting published. ｜ 覆盖主流期刊的 Claude Code/Codex 期刊技能包，从选题、识别策略到表格规范与审稿回复全流程，助你快速发论文。",
+      "source": "collection",
+      "repoKey": "brycewang-stanford/awesome-journal-skills"
+    },
+    {
       "id": "komal-skynet-claude-skill-homeassistant",
       "title": "claude-skill-homeassistant",
       "category": "Workflows",
@@ -2478,6 +2838,18 @@
       "description": "An LLM-first SEO analysis skill for Antigravity, Codex, Claude with 16 specialized sub-skills, 10 specialist agents, and 88 optional utility scripts used as evidence collectors.",
       "source": "community",
       "repoKey": "bhanunamikaze/agentic-seo-skill"
+    },
+    {
+      "id": "zhanghandong-makepad-skills",
+      "title": "makepad-skills",
+      "category": "Other",
+      "author": "ZhangHanDong",
+      "repo": "https://github.com/ZhangHanDong/makepad-skills",
+      "stars": 744,
+      "dateAdded": "2026-01-10",
+      "description": "Build App with Makepad and AI skills",
+      "source": "community",
+      "repoKey": "zhanghandong/makepad-skills"
     },
     {
       "id": "mrtooher-fable-mode",
@@ -2540,6 +2912,18 @@
       "repoKey": "jane-xiaoer/claude-skill-web-clone"
     },
     {
+      "id": "aklofas-kicad-happy",
+      "title": "kicad-happy",
+      "category": "Design & Creative",
+      "author": "aklofas",
+      "repo": "https://github.com/aklofas/kicad-happy",
+      "stars": 719,
+      "dateAdded": "2026-03-09",
+      "description": "AI coding agent skills for KiCad electronics design. Works with Claude Code and OpenAI Codex. Analyze schematics, review PCB layouts, EMC pre-compliance, SPICE simulation, download datasheets, source components, and prep boards for fabrication.",
+      "source": "community",
+      "repoKey": "aklofas/kicad-happy"
+    },
+    {
       "id": "obra-superpowers-skills",
       "title": "superpowers-skills",
       "category": "Other",
@@ -2552,6 +2936,42 @@
       "repoKey": "obra/superpowers-skills"
     },
     {
+      "id": "wantongc-journal-adapt-writing-skill",
+      "title": "journal-adapt-writing-skill",
+      "category": "Communication",
+      "author": "WantongC",
+      "repo": "https://github.com/WantongC/journal-adapt-writing-skill",
+      "stars": 691,
+      "dateAdded": "2026-05-13",
+      "description": "Learn any journal's writing conventions from its published papers, then revise your manuscript to match — section by section.",
+      "source": "community",
+      "repoKey": "wantongc/journal-adapt-writing-skill"
+    },
+    {
+      "id": "realkimbarrett-advertising-skills",
+      "title": "advertising-skills",
+      "category": "Other",
+      "author": "realkimbarrett",
+      "repo": "https://github.com/realkimbarrett/advertising-skills",
+      "stars": 687,
+      "dateAdded": "2026-03-26",
+      "description": "Advertising Skills for Open Claw, Claude Code & AI agents. Direct response, paid ads, funnels, and copy systems.",
+      "source": "community",
+      "repoKey": "realkimbarrett/advertising-skills"
+    },
+    {
+      "id": "utkusen-sast-skills",
+      "title": "sast-skills",
+      "category": "Collections",
+      "author": "utkusen",
+      "repo": "https://github.com/utkusen/sast-skills",
+      "stars": 684,
+      "dateAdded": "2026-03-30",
+      "description": "Collection of agent skills that turn your AI coder into a SAST scanner",
+      "source": "community",
+      "repoKey": "utkusen/sast-skills"
+    },
+    {
       "id": "chujianyun-skills",
       "title": "skills",
       "category": "Other",
@@ -2562,6 +2982,18 @@
       "description": "WuMing's Claude Skills",
       "source": "community",
       "repoKey": "chujianyun/skills"
+    },
+    {
+      "id": "tjboudreaux-cc-thinking-skills",
+      "title": "cc-thinking-skills",
+      "category": "Development",
+      "author": "tjboudreaux",
+      "repo": "https://github.com/tjboudreaux/cc-thinking-skills",
+      "stars": 675,
+      "dateAdded": "2026-01-28",
+      "description": "18 mental models and critical thinking frameworks for Claude Code - First Principles, Bayesian, Systems Thinking, OODA, Pre-Mortem, and more",
+      "source": "community",
+      "repoKey": "tjboudreaux/cc-thinking-skills"
     },
     {
       "id": "bitjaru-styleseed",
@@ -2622,6 +3054,42 @@
       "description": "AI 八字 + 紫微斗数排盘与综合印证 Skill：算法精准排盘（不靠 LLM 猜），三种分析模式，一键生成水墨风 HTML 命盘海报。兼容 Claude / Codex / Cursor / Workbuddy 等 SKILL.md Agent。",
       "source": "community",
       "repoKey": "dzcmemory-web/bazi-ziwei-skill"
+    },
+    {
+      "id": "microsoftdocs-agent-skills",
+      "title": "Agent-Skills",
+      "category": "Development",
+      "author": "MicrosoftDocs",
+      "repo": "https://github.com/MicrosoftDocs/Agent-Skills",
+      "stars": 640,
+      "dateAdded": "2026-01-27",
+      "description": "Curated Agent Skills for Microsoft & Azure – giving AI coding assistants structured, real-time expertise from Microsoft Learn docs.",
+      "source": "community",
+      "repoKey": "microsoftdocs/agent-skills"
+    },
+    {
+      "id": "skillmatic-ai-awesome-agent-skills",
+      "title": "awesome-agent-skills",
+      "category": "Collections",
+      "author": "skillmatic-ai",
+      "repo": "https://github.com/skillmatic-ai/awesome-agent-skills",
+      "stars": 630,
+      "dateAdded": "2025-12-22",
+      "description": "The definitive resource for Agent Skills - modular capabilities revolutionizing AI agent architecture",
+      "source": "collection",
+      "repoKey": "skillmatic-ai/awesome-agent-skills"
+    },
+    {
+      "id": "ndpvt-web-latex-document-skill",
+      "title": "latex-document-skill",
+      "category": "Other",
+      "author": "ndpvt-web",
+      "repo": "https://github.com/ndpvt-web/latex-document-skill",
+      "stars": 628,
+      "dateAdded": "2026-02-13",
+      "description": "Universal LaTeX document skill for Claude Code: 27 templates, 27 scripts, 26 reference guides. Made with Claude Code on ✦ HappyCapy AI ✦ platform",
+      "source": "community",
+      "repoKey": "ndpvt-web/latex-document-skill"
     },
     {
       "id": "jwangkun-claude-for-financial-services-cn",
@@ -2696,6 +3164,18 @@
       "repoKey": "laolaoshiren/claude-code-skills-zh"
     },
     {
+      "id": "jackyst0-awesome-agent-skills",
+      "title": "awesome-agent-skills",
+      "category": "Collections",
+      "author": "JackyST0",
+      "repo": "https://github.com/JackyST0/awesome-agent-skills",
+      "stars": 587,
+      "dateAdded": "2026-01-28",
+      "description": "🤖 精选的 AI Agent Skills 列表，适用于 Cursor、Claude Code、GitHub Copilot 等 AI 编程工具",
+      "source": "collection",
+      "repoKey": "jackyst0/awesome-agent-skills"
+    },
+    {
       "id": "24kchengye-human-skill-tree",
       "title": "human-skill-tree",
       "category": "Other",
@@ -2718,6 +3198,42 @@
       "description": "A Claude Code SKILL for designing beautiful, consistent web pages — spec first, code second.",
       "source": "community",
       "repoKey": "xiaopu-ai/web-design"
+    },
+    {
+      "id": "mgechev-skillgrade",
+      "title": "skillgrade",
+      "category": "Other",
+      "author": "mgechev",
+      "repo": "https://github.com/mgechev/skillgrade",
+      "stars": 583,
+      "dateAdded": "2026-02-26",
+      "description": "\"Unit tests\" for your agent skills",
+      "source": "community",
+      "repoKey": "mgechev/skillgrade"
+    },
+    {
+      "id": "leonchaox-qinyan-academic-skills",
+      "title": "qinyan-academic-skills",
+      "category": "Other",
+      "author": "LeonChaoX",
+      "repo": "https://github.com/LeonChaoX/qinyan-academic-skills",
+      "stars": 582,
+      "dateAdded": "2026-02-27",
+      "description": "沁言学术科研论文Skills库 - 177个学术研究Agent Skills的综合集合，涵盖论文检索、科学写作、生物信息、药物发现、临床医学等17个分类",
+      "source": "community",
+      "repoKey": "leonchaox/qinyan-academic-skills"
+    },
+    {
+      "id": "auriti-labs-geo-optimizer-skill",
+      "title": "geo-optimizer-skill",
+      "category": "Communication",
+      "author": "Auriti-Labs",
+      "repo": "https://github.com/Auriti-Labs/geo-optimizer-skill",
+      "stars": 581,
+      "dateAdded": "2026-02-18",
+      "description": "Open-source Answer Engine Optimization (AEO) & Generative Engine Optimization (GEO) toolkit — audit, optimize & track whether ChatGPT, Perplexity, Gemini & Google AI Overviews cite your site. AI SEO / LLM SEO. CLI, Python, MCP, Astro.",
+      "source": "community",
+      "repoKey": "auriti-labs/geo-optimizer-skill"
     },
     {
       "id": "rokpiy-auto-commenter",
@@ -2756,6 +3272,18 @@
       "repoKey": "staruhub/claudeskills"
     },
     {
+      "id": "partme-ai-full-stack-skills",
+      "title": "full-stack-skills",
+      "category": "Other",
+      "author": "partme-ai",
+      "repo": "https://github.com/partme-ai/full-stack-skills",
+      "stars": 561,
+      "dateAdded": "2026-01-16",
+      "description": "这是一个免费的全栈开发所需的技能市场，提供各种实用的 AI 技能集合，支持多种平台。",
+      "source": "community",
+      "repoKey": "partme-ai/full-stack-skills"
+    },
+    {
       "id": "arindam200-cc-lens",
       "title": "cc-lens",
       "category": "Data & Visualization",
@@ -2780,6 +3308,30 @@
       "repoKey": "zscole/adversarial-spec"
     },
     {
+      "id": "echovic-boss-skill",
+      "title": "boss-skill",
+      "category": "Other",
+      "author": "echoVic",
+      "repo": "https://github.com/echoVic/boss-skill",
+      "stars": 551,
+      "dateAdded": "2026-01-10",
+      "description": "Boss Skill - BMAD 全自动研发流水线（多 Agent 编排）",
+      "source": "community",
+      "repoKey": "echovic/boss-skill"
+    },
+    {
+      "id": "myurikanao-src-hunter-skill",
+      "title": "src-hunter-skill",
+      "category": "Other",
+      "author": "MyuriKanao",
+      "repo": "https://github.com/MyuriKanao/src-hunter-skill",
+      "stars": 545,
+      "dateAdded": "2026-05-09",
+      "description": "实战 SRC / 众测 / Bug bounty 漏洞挖掘 Claude Code skill — 19 个攻击类 playbook、305 个结构化 payload、263 个 WAF/EDR 绕过、2887 份 HackerOne 真实案例、88,636 WooYun 案例统计",
+      "source": "community",
+      "repoKey": "myurikanao/src-hunter-skill"
+    },
+    {
       "id": "hao0321-claude-skill-social-post",
       "title": "claude-skill-social-post",
       "category": "Other",
@@ -2790,6 +3342,42 @@
       "description": "A Claude Code skill by Hao (駱君昊) that learns your Facebook voice and auto-posts to FB / IG / Threads / X with a 14-day content calendar. Mega-viral validated: 72K reach / 358 likes / 443 comments / +700 community members on first post. Includes Day 2 flop postmortem.",
       "source": "community",
       "repoKey": "hao0321/claude-skill-social-post"
+    },
+    {
+      "id": "affitor-affiliate-skills",
+      "title": "affiliate-skills",
+      "category": "Communication",
+      "author": "Affitor",
+      "repo": "https://github.com/Affitor/affiliate-skills",
+      "stars": 536,
+      "dateAdded": "2026-03-15",
+      "description": "50 AI agent skills for affiliate marketing. Research trending content, write data-backed posts, generate infographics, build landing pages, deploy — full flywheel with social intelligence. Works with Claude Code, Pi, ChatGPT, Gemini, Cursor, Windsurf, any AI.",
+      "source": "community",
+      "repoKey": "affitor/affiliate-skills"
+    },
+    {
+      "id": "aldefy-compose-skill",
+      "title": "compose-skill",
+      "category": "Development",
+      "author": "aldefy",
+      "repo": "https://github.com/aldefy/compose-skill",
+      "stars": 535,
+      "dateAdded": "2026-02-28",
+      "description": "Jetpack Compose Agent Skill — AI-powered coding guidance with actual androidx/androidx source code receipts. Works with Claude Code, Codex CLI, Gemini CLI, Cursor, Copilot, Windsurf, and more.",
+      "source": "community",
+      "repoKey": "aldefy/compose-skill"
+    },
+    {
+      "id": "butterbase-ai-butterbase-skills",
+      "title": "butterbase-skills",
+      "category": "Other",
+      "author": "butterbase-ai",
+      "repo": "https://github.com/butterbase-ai/butterbase-skills",
+      "stars": 533,
+      "dateAdded": "2026-04-13",
+      "description": "Plugin for Butterbase.ai",
+      "source": "community",
+      "repoKey": "butterbase-ai/butterbase-skills"
     },
     {
       "id": "ferdinandobons-startup-skill",
@@ -2816,6 +3404,18 @@
       "repoKey": "leastbit/claude_skills_zh-cn"
     },
     {
+      "id": "solana-foundation-solana-dev-skill",
+      "title": "solana-dev-skill",
+      "category": "Other",
+      "author": "solana-foundation",
+      "repo": "https://github.com/solana-foundation/solana-dev-skill",
+      "stars": 526,
+      "dateAdded": "2026-01-12",
+      "description": "Skills for agentic development on Solana",
+      "source": "community",
+      "repoKey": "solana-foundation/solana-dev-skill"
+    },
+    {
       "id": "memvid-claude-brain",
       "title": "claude-brain",
       "category": "Data & Visualization",
@@ -2826,6 +3426,18 @@
       "description": "Give Claude Code photographic memory in ONE portable file. No database, no SQLite, no ChromaDB - just a single .mv2 file you can git commit, scp, or share. Native Rust core with sub-ms operations.",
       "source": "community",
       "repoKey": "memvid/claude-brain"
+    },
+    {
+      "id": "meodai-skill-color-expert",
+      "title": "skill.color-expert",
+      "category": "Other",
+      "author": "meodai",
+      "repo": "https://github.com/meodai/skill.color-expert",
+      "stars": 524,
+      "dateAdded": "2026-03-22",
+      "description": "Agent skill for color science expertise. Many references covering color spaces, accessibility (APCA, WCAG), palette generation, pigment mixing, and historical color theory. Works with Claude Code, Codex, Cursor, Copilot & others.",
+      "source": "community",
+      "repoKey": "meodai/skill.color-expert"
     },
     {
       "id": "axtonliu-smart-illustrator",
@@ -2862,6 +3474,18 @@
       "description": "A Claude skill for slides that don't look like AI made them. Brand DNA × 20 codified design principles.",
       "source": "community",
       "repoKey": "itsssssjack/power-design"
+    },
+    {
+      "id": "levnikolaevich-claude-code-skills",
+      "title": "claude-code-skills",
+      "category": "Workflows",
+      "author": "levnikolaevich",
+      "repo": "https://github.com/levnikolaevich/claude-code-skills",
+      "stars": 515,
+      "dateAdded": "2025-10-24",
+      "description": "Plugin suite + bundled MCP servers for Claude Code. Full delivery lifecycle: Agile pipeline with multi-model AI review, project bootstrap, documentation generation, codebase audits, performance optimization, community workflows. Includes hex-line (hash-verified editing), hex-graph (code knowledge graph), and hex-ssh (remote SSH) MCP servers.",
+      "source": "community",
+      "repoKey": "levnikolaevich/claude-code-skills"
     },
     {
       "id": "bawadou-claude-engineer",
@@ -2936,6 +3560,18 @@
       "repoKey": "vikashloomba/copilot-mcp"
     },
     {
+      "id": "rshankras-claude-code-apple-skills",
+      "title": "claude-code-apple-skills",
+      "category": "Other",
+      "author": "rshankras",
+      "repo": "https://github.com/rshankras/claude-code-apple-skills",
+      "stars": 498,
+      "dateAdded": "2025-10-29",
+      "description": "Claude Code skills for Apple platform development (iOS, macOS, iPadOS) — product validation, code generation, App Store optimization, and more",
+      "source": "community",
+      "repoKey": "rshankras/claude-code-apple-skills"
+    },
+    {
       "id": "texasbedouin-vibe-check",
       "title": "vibe-check",
       "category": "Development",
@@ -2946,6 +3582,42 @@
       "description": "By a 12-year product manager who builds 0-to-1: takes a beginner from a vague idea to a buildable plan, then guides the build (GitHub basics, clean-code habits, a verify-and-iterate loop, a checkup for the mess). For Claude Code, Codex, and Antigravity. grill-me is for engineers, vibe-check is for everyone else.",
       "source": "community",
       "repoKey": "texasbedouin/vibe-check"
+    },
+    {
+      "id": "minhnv0807-ai-business-skills",
+      "title": "ai-business-skills",
+      "category": "Data & Visualization",
+      "author": "minhnv0807",
+      "repo": "https://github.com/minhnv0807/ai-business-skills",
+      "stars": 491,
+      "dateAdded": "2026-04-15",
+      "description": "63 bilingual AI marketing skills (31 VN + 31 Global) for Claude Code, OpenCode, Codex, VS Code. Marketing strategy, content production, performance analytics, personal brand, AI avatar, dropshipping mastery, design master (8 design types). 4 regions (US/EU/SEA/LATAM) + Vietnam 2025-2026. Anthropic-pattern aligned. Companion: opa-kit.",
+      "source": "community",
+      "repoKey": "minhnv0807/ai-business-skills"
+    },
+    {
+      "id": "willoscar-research-units-pipeline-skills",
+      "title": "research-units-pipeline-skills",
+      "category": "Communication",
+      "author": "WILLOSCAR",
+      "repo": "https://github.com/WILLOSCAR/research-units-pipeline-skills",
+      "stars": 487,
+      "dateAdded": "2026-01-07",
+      "description": "Research pipelines as semantic execution units: each skill declares inputs/outputs, acceptance criteria, and guardrails. Evidence-first methodology prevents hollow writing through structured intermediate artifacts.",
+      "source": "community",
+      "repoKey": "willoscar/research-units-pipeline-skills"
+    },
+    {
+      "id": "wzyn20051216-solidworks-automation-skill",
+      "title": "solidworks-automation-skill",
+      "category": "Workflows",
+      "author": "wzyn20051216",
+      "repo": "https://github.com/wzyn20051216/solidworks-automation-skill",
+      "stars": 486,
+      "dateAdded": "2026-03-17",
+      "description": "Python automation toolkit for SolidWorks API",
+      "source": "community",
+      "repoKey": "wzyn20051216/solidworks-automation-skill"
     },
     {
       "id": "aiscientists-dev-flowtrace",
@@ -2996,16 +3668,16 @@
       "repoKey": "oliver-kriska/claude-elixir-phoenix"
     },
     {
-      "id": "michalparkola-tapestry-skills-for-claude-code",
-      "title": "tapestry-skills-for-claude-code",
+      "id": "tomsawyerhu-chinese-webnovel-skill",
+      "title": "Chinese-WebNovel-Skill",
       "category": "Other",
-      "author": "michalparkola",
-      "repo": "https://github.com/michalparkola/tapestry-skills-for-claude-code",
-      "stars": 474,
-      "dateAdded": "2025-10-17",
-      "description": "Claude Code skills to download sources (articles, PDFs, YouTube video transcripts)",
+      "author": "Tomsawyerhu",
+      "repo": "https://github.com/Tomsawyerhu/Chinese-WebNovel-Skill",
+      "stars": 478,
+      "dateAdded": "2026-04-15",
+      "description": "中文网文小说写作skill",
       "source": "community",
-      "repoKey": "michalparkola/tapestry-skills-for-claude-code"
+      "repoKey": "tomsawyerhu/chinese-webnovel-skill"
     },
     {
       "id": "aldegad-sprite-gen",
@@ -3044,6 +3716,42 @@
       "repoKey": "malob/nix-config"
     },
     {
+      "id": "aj-geddes-claude-code-bmad-skills",
+      "title": "claude-code-bmad-skills",
+      "category": "Workflows",
+      "author": "aj-geddes",
+      "repo": "https://github.com/aj-geddes/claude-code-bmad-skills",
+      "stars": 459,
+      "dateAdded": "2025-10-25",
+      "description": "BMAD Method skills for Claude Code - Auto-detection, Memory integration, Slash commands. Transform Claude Code into a BMAD-powered development environment.",
+      "source": "community",
+      "repoKey": "aj-geddes/claude-code-bmad-skills"
+    },
+    {
+      "id": "product-on-purpose-pm-skills",
+      "title": "pm-skills",
+      "category": "Design & Creative",
+      "author": "product-on-purpose",
+      "repo": "https://github.com/product-on-purpose/pm-skills",
+      "stars": 457,
+      "dateAdded": "2026-01-09",
+      "description": "68 plug-and-play, best-practice product management skills for AI agents: 30 Triple Diamond phase + 11 foundation + 12 utility + 15 tool (Foundation Sprint + Design Sprint). Plus 6 sub-agents, workflows, 200+ output samples, guides, and CI-enforced contracts. Apache 2.0.",
+      "source": "community",
+      "repoKey": "product-on-purpose/pm-skills"
+    },
+    {
+      "id": "managedcode-dotnet-skills",
+      "title": "dotnet-skills",
+      "category": "Development",
+      "author": "managedcode",
+      "repo": "https://github.com/managedcode/dotnet-skills",
+      "stars": 456,
+      "dateAdded": "2026-03-15",
+      "description": "Installable .NET skill catalog and CLI for Codex, Claude Code, GitHub Copilot, and Gemini.",
+      "source": "community",
+      "repoKey": "managedcode/dotnet-skills"
+    },
+    {
       "id": "alonw0-web-asset-generator",
       "title": "web-asset-generator",
       "category": "Design & Creative",
@@ -3056,6 +3764,18 @@
       "repoKey": "alonw0/web-asset-generator"
     },
     {
+      "id": "agentskillos-skillanything",
+      "title": "SkillAnything",
+      "category": "Other",
+      "author": "AgentSkillOS",
+      "repo": "https://github.com/AgentSkillOS/SkillAnything",
+      "stars": 452,
+      "dateAdded": "2026-04-06",
+      "description": "Making ANY Software Skill-Native -- Auto-generate production-ready AI Agent Skills for Claude Code, OpenClaw, Codex, and more.",
+      "source": "community",
+      "repoKey": "agentskillos/skillanything"
+    },
+    {
       "id": "plugin87-ux-ui-agent-skills",
       "title": "ux-ui-agent-skills",
       "category": "Design & Creative",
@@ -3066,6 +3786,30 @@
       "description": "Turn Claude into a Senior Design Architect — DTCG design tokens, 42 components, WCAG 2.2 accessibility, any-framework code, 138 design systems, and runnable skills.",
       "source": "community",
       "repoKey": "plugin87/ux-ui-agent-skills"
+    },
+    {
+      "id": "mxyhi-ok-skills",
+      "title": "ok-skills",
+      "category": "Development",
+      "author": "mxyhi",
+      "repo": "https://github.com/mxyhi/ok-skills",
+      "stars": 449,
+      "dateAdded": "2026-02-02",
+      "description": "Curated AI coding agent skills and AGENTS.md playbooks for Codex, Claude Code, Cursor, OpenClaw, and other SKILL.md-compatible tools.",
+      "source": "community",
+      "repoKey": "mxyhi/ok-skills"
+    },
+    {
+      "id": "skydoves-compose-performance-skills",
+      "title": "compose-performance-skills",
+      "category": "Other",
+      "author": "skydoves",
+      "repo": "https://github.com/skydoves/compose-performance-skills",
+      "stars": 446,
+      "dateAdded": "2026-04-29",
+      "description": "⚡️ A curated library of Agent Skills focused on Jetpack Compose performance.",
+      "source": "community",
+      "repoKey": "skydoves/compose-performance-skills"
     },
     {
       "id": "instavm-open-skills",
@@ -3140,6 +3884,30 @@
       "repoKey": "ailabs-393/ai-labs-claude-skills"
     },
     {
+      "id": "wojisama-skill-based-architecture",
+      "title": "skill-based-architecture",
+      "category": "Workflows",
+      "author": "WoJiSama",
+      "repo": "https://github.com/WoJiSama/skill-based-architecture",
+      "stars": 422,
+      "dateAdded": "2026-04-08",
+      "description": "A meta-skill that produces skills. Point it at any codebase and it distills the project's rules, workflows, and hard-won lessons into a dedicated skills/<name>/ directory — a project skill that becomes the single source of truth every AI agent (Cursor, Claude Code, Codex, Windsurf, Gemini) consults before every task.",
+      "source": "community",
+      "repoKey": "wojisama/skill-based-architecture"
+    },
+    {
+      "id": "jabrena-plinth",
+      "title": "plinth",
+      "category": "Development",
+      "author": "jabrena",
+      "repo": "https://github.com/jabrena/plinth",
+      "stars": 416,
+      "dateAdded": "2025-02-08",
+      "description": "Plinth is an AI-native engineering toolkit for modern Java enterprise SDLC, built around reusable Commands, Agents, Skills, and MCP Servers.",
+      "source": "community",
+      "repoKey": "jabrena/plinth"
+    },
+    {
       "id": "internet-court-internet-court-skill",
       "title": "internet-court-skill",
       "category": "Other",
@@ -3152,6 +3920,30 @@
       "repoKey": "internet-court/internet-court-skill"
     },
     {
+      "id": "light0305-light-skills",
+      "title": "Light-skills",
+      "category": "Workflows",
+      "author": "Light0305",
+      "repo": "https://github.com/Light0305/Light-skills",
+      "stars": 409,
+      "dateAdded": "2026-06-07",
+      "description": "An AI workflow skill pack for research, competitions, and innovation projects.",
+      "source": "community",
+      "repoKey": "light0305/light-skills"
+    },
+    {
+      "id": "notque-vexjoy-agent",
+      "title": "vexjoy-agent",
+      "category": "Other",
+      "author": "notque",
+      "repo": "https://github.com/notque/vexjoy-agent",
+      "stars": 408,
+      "dateAdded": "2026-03-18",
+      "description": "VexJoy AI Agent with Intelligent Routing - /do routes plain-English requests to the right specialist agent and gates the work with reviews, tests, and a learning loop.",
+      "source": "community",
+      "repoKey": "notque/vexjoy-agent"
+    },
+    {
       "id": "alirezarezvani-claudeforge",
       "title": "ClaudeForge",
       "category": "Other",
@@ -3162,6 +3954,30 @@
       "description": "A CLAUDE.md Generator and Maintenance tool for for Claude Code to create high-quality CLAUDE.md instruction files — aligned with Anthropic’s best practices for Claude Code.",
       "source": "community",
       "repoKey": "alirezarezvani/claudeforge"
+    },
+    {
+      "id": "gotalab-skillport",
+      "title": "skillport",
+      "category": "Development",
+      "author": "gotalab",
+      "repo": "https://github.com/gotalab/skillport",
+      "stars": 403,
+      "dateAdded": "2025-12-01",
+      "description": "Bring Agent Skills to Any AI Agent and Coding Agent — via CLI or MCP. Manage once, serve anywhere.",
+      "source": "community",
+      "repoKey": "gotalab/skillport"
+    },
+    {
+      "id": "jame581-godotprompter",
+      "title": "GodotPrompter",
+      "category": "Development",
+      "author": "jame581",
+      "repo": "https://github.com/jame581/GodotPrompter",
+      "stars": 403,
+      "dateAdded": "2026-04-03",
+      "description": "Agentic skills framework for Godot 4.x. Domain-specific skills for AI coding agents (Claude Code, Copilot, Gemini, Cursor)",
+      "source": "community",
+      "repoKey": "jame581/godotprompter"
     },
     {
       "id": "alirezarezvani-claude-code-aso-skill",
@@ -3212,9 +4028,57 @@
       "repoKey": "palkan/skills"
     },
     {
+      "id": "aiskillstore-marketplace",
+      "title": "marketplace",
+      "category": "Collections",
+      "author": "aiskillstore",
+      "repo": "https://github.com/aiskillstore/marketplace",
+      "stars": 385,
+      "dateAdded": "2025-12-20",
+      "description": "Security-audited skills for Claude, Codex & Claude Code. One-click install, quality verified.",
+      "source": "community",
+      "repoKey": "aiskillstore/marketplace"
+    },
+    {
+      "id": "maxkmet-idea-validation-agents",
+      "title": "idea-validation-agents",
+      "category": "Workflows",
+      "author": "MaxKmet",
+      "repo": "https://github.com/MaxKmet/idea-validation-agents",
+      "stars": 377,
+      "dateAdded": "2026-04-13",
+      "description": "AI agents that act as your personal venture analyst - from startup idea brainstorming to full validation and go-to-market strategy. Built for developers who'd rather validate in 10 minutes than regret in six months. Powered by Claude Code, OpenAI Codex, and Cursor.",
+      "source": "community",
+      "repoKey": "maxkmet/idea-validation-agents"
+    },
+    {
+      "id": "secondsky-sap-skills",
+      "title": "sap-skills",
+      "category": "Data & Visualization",
+      "author": "secondsky",
+      "repo": "https://github.com/secondsky/sap-skills",
+      "stars": 376,
+      "dateAdded": "2025-11-21",
+      "description": "Production-ready plugins for SAP development with AI coding assistants — BTP, CAP, Fiori, ABAP, HANA, Analytics Cloud, Datasphere, and more",
+      "source": "community",
+      "repoKey": "secondsky/sap-skills"
+    },
+    {
+      "id": "menkesu-awesome-pm-skills",
+      "title": "awesome-pm-skills",
+      "category": "Collections",
+      "author": "menkesu",
+      "repo": "https://github.com/menkesu/awesome-pm-skills",
+      "stars": 373,
+      "dateAdded": "2026-01-28",
+      "description": "28 AI-powered PM skills from Lenny's Podcast. Transform Claude Code & Cursor into world-class product partners.",
+      "source": "collection",
+      "repoKey": "menkesu/awesome-pm-skills"
+    },
+    {
       "id": "haunchen-n8n-skills",
       "title": "n8n-skills",
-      "category": "Workflows",
+      "category": "Design & Creative",
       "author": "haunchen",
       "repo": "https://github.com/haunchen/n8n-skills",
       "stars": 372,
@@ -3248,6 +4112,30 @@
       "repoKey": "amanattar/caveman-claude-skill"
     },
     {
+      "id": "evolsb-claude-legal-skill",
+      "title": "claude-legal-skill",
+      "category": "Other",
+      "author": "evolsb",
+      "repo": "https://github.com/evolsb/claude-legal-skill",
+      "stars": 367,
+      "dateAdded": "2026-01-26",
+      "description": "AI-powered contract review skill with CUAD risk detection, market benchmarks, and lawyer-ready redlines. Works with Claude Code, Codex, Cursor, and 26+ tools.",
+      "source": "community",
+      "repoKey": "evolsb/claude-legal-skill"
+    },
+    {
+      "id": "helloianneo-awesome-claude-code-skills",
+      "title": "awesome-claude-code-skills",
+      "category": "Collections",
+      "author": "helloianneo",
+      "repo": "https://github.com/helloianneo/awesome-claude-code-skills",
+      "stars": 359,
+      "dateAdded": "2026-04-13",
+      "description": "Claude Code 最实用的 Skills / Agents / Plugins 精选合集 | 50+ 精选 | 按场景分类 | 带推荐等级 | 复制即装",
+      "source": "collection",
+      "repoKey": "helloianneo/awesome-claude-code-skills"
+    },
+    {
       "id": "borghei-claude-skills",
       "title": "Claude-Skills",
       "category": "Communication",
@@ -3258,6 +4146,18 @@
       "description": "343 AI skills, 76 expert agents, and 835 stdlib Python tools for every team: engineering, PM, marketing, C-level, compliance, and more. Installs on Claude Code, Cursor, Codex, Gemini, Copilot, and 6 other AI assistants.",
       "source": "community",
       "repoKey": "borghei/claude-skills"
+    },
+    {
+      "id": "brianrwagner-ai-marketing-claude-code-skills",
+      "title": "ai-marketing-claude-code-skills",
+      "category": "Design & Creative",
+      "author": "BrianRWagner",
+      "repo": "https://github.com/BrianRWagner/ai-marketing-claude-code-skills",
+      "stars": 351,
+      "dateAdded": "2026-02-01",
+      "description": "Marketing frameworks that AI actually executes. Designed for Claude Code, but could be used for OpenClaw, etc.",
+      "source": "community",
+      "repoKey": "brianrwagner/ai-marketing-claude-code-skills"
     },
     {
       "id": "bitwize-music-studio-claude-ai-music-skills",
@@ -3286,7 +4186,7 @@
     {
       "id": "sanjay3290-ai-skills",
       "title": "ai-skills",
-      "category": "Development",
+      "category": "Other",
       "author": "sanjay3290",
       "repo": "https://github.com/sanjay3290/ai-skills",
       "stars": 337,
@@ -3332,6 +4232,30 @@
       "repoKey": "zxkane/aws-skills"
     },
     {
+      "id": "fcakyon-phd-skills",
+      "title": "phd-skills",
+      "category": "Design & Creative",
+      "author": "fcakyon",
+      "repo": "https://github.com/fcakyon/phd-skills",
+      "stars": 325,
+      "dateAdded": "2026-03-11",
+      "description": "PhD Research Skills for Claude Code: paper reproduction, experiment design, paper review, result comparison and more.",
+      "source": "community",
+      "repoKey": "fcakyon/phd-skills"
+    },
+    {
+      "id": "ai-dashboad-flutter-skill",
+      "title": "flutter-skill",
+      "category": "Testing & QA",
+      "author": "ai-dashboad",
+      "repo": "https://github.com/ai-dashboad/flutter-skill",
+      "stars": 324,
+      "dateAdded": "2026-01-29",
+      "description": "AI-powered E2E testing for 10 platforms. 253 MCP tools. Zero config. Works with Claude, Cursor, Windsurf, Copilot. Test Flutter, React Native, iOS, Android, Web, Electron, Tauri, KMP, .NET MAUI — all from natural language.",
+      "source": "community",
+      "repoKey": "ai-dashboad/flutter-skill"
+    },
+    {
       "id": "superdesigndev-superdesign-skill",
       "title": "superdesign-skill",
       "category": "Design & Creative",
@@ -3354,6 +4278,30 @@
       "description": "Random Claude skills for common, simple programming tasks",
       "source": "community",
       "repoKey": "ntcoding/claude-skillz"
+    },
+    {
+      "id": "seo-skills-seo-audit-skill",
+      "title": "seo-audit-skill",
+      "category": "Security",
+      "author": "seo-skills",
+      "repo": "https://github.com/seo-skills/seo-audit-skill",
+      "stars": 323,
+      "dateAdded": "2026-01-23",
+      "description": "A comprehensive SEO audit command-line tool with 108 audit rules across 12 categories. Analyze any website for SEO best practices, Core Web Vitals, security headers, structured data, accessibility, and more.",
+      "source": "community",
+      "repoKey": "seo-skills/seo-audit-skill"
+    },
+    {
+      "id": "blacktwist-social-media-skills",
+      "title": "social-media-skills",
+      "category": "Other",
+      "author": "blacktwist",
+      "repo": "https://github.com/blacktwist/social-media-skills",
+      "stars": 322,
+      "dateAdded": "2026-03-20",
+      "description": "AI agent skills for social media content strategy, creation, and analysis across text-first platforms",
+      "source": "community",
+      "repoKey": "blacktwist/social-media-skills"
     },
     {
       "id": "op7418-video-wrapper-skills",
@@ -3404,6 +4352,18 @@
       "repoKey": "glebis/claude-skills"
     },
     {
+      "id": "zhuyansen-agent-skills-hub",
+      "title": "agent-skills-hub",
+      "category": "Development",
+      "author": "zhuyansen",
+      "repo": "https://github.com/zhuyansen/agent-skills-hub",
+      "stars": 307,
+      "dateAdded": "2026-03-06",
+      "description": "Discover and compare open-source Agent Skills, tools & MCP servers — with quality scoring, trending analysis, and automated GitHub sync",
+      "source": "community",
+      "repoKey": "zhuyansen/agent-skills-hub"
+    },
+    {
       "id": "cclank-lanshu-awesome-ai-video-kit",
       "title": "lanshu-awesome-ai-video-kit",
       "category": "Collections",
@@ -3450,6 +4410,30 @@
       "description": "自动收集素材，确认选题，并创作x推文，最后并发布到草稿箱的Claude Skills",
       "source": "community",
       "repoKey": "kangarooking/x-skills"
+    },
+    {
+      "id": "theqtcompanyrnd-agent-skills",
+      "title": "agent-skills",
+      "category": "Development",
+      "author": "TheQtCompanyRnD",
+      "repo": "https://github.com/TheQtCompanyRnD/agent-skills",
+      "stars": 290,
+      "dateAdded": "2026-03-26",
+      "description": "Official Qt AI engineering skills for Claude Code, Codex, Copilot, Gemini,and other AI coding tools",
+      "source": "community",
+      "repoKey": "theqtcompanyrnd/agent-skills"
+    },
+    {
+      "id": "staskh-trading-skills",
+      "title": "trading_skills",
+      "category": "Other",
+      "author": "staskh",
+      "repo": "https://github.com/staskh/trading_skills",
+      "stars": 288,
+      "dateAdded": "2026-02-21",
+      "description": "Claude powered advisor system for option traders",
+      "source": "community",
+      "repoKey": "staskh/trading_skills"
     },
     {
       "id": "claude-office-skills-skills",
@@ -3512,6 +4496,18 @@
       "repoKey": "aref-vc/tufte-claude-skill"
     },
     {
+      "id": "beamuswayne-simp-skill",
+      "title": "simp-skill",
+      "category": "Other",
+      "author": "BeamusWayne",
+      "repo": "https://github.com/BeamusWayne/simp-skill",
+      "stars": 274,
+      "dateAdded": "2026-04-05",
+      "description": "不教 PUA，只教真心。Win your crush before it's too late. Inspired by colleague-skill（同事skill）",
+      "source": "community",
+      "repoKey": "beamuswayne/simp-skill"
+    },
+    {
       "id": "zexuanw958-svg-travel-plan-viz",
       "title": "travel-plan-viz",
       "category": "Other",
@@ -3522,6 +4518,18 @@
       "description": "Migo · 旅行领航 —— 把旅行行程生成为单文件、可离线、手机优先的 HTML（交互地图+每日时间轴+出发前提醒）。Claude Code / Codex 通用 Skill（travel-plan-viz）。",
       "source": "community",
       "repoKey": "zexuanw958-svg/travel-plan-viz"
+    },
+    {
+      "id": "wanghuan9-skill-manager",
+      "title": "skill-manager",
+      "category": "Development",
+      "author": "wanghuan9",
+      "repo": "https://github.com/wanghuan9/skill-manager",
+      "stars": 267,
+      "dateAdded": "2026-05-13",
+      "description": "SkillDock is a skill manager and MCP manager for installing, viewing, updating, and syncing AI skills and MCP servers, with Git-aware updates to track upstream changes and local modifications. SkillDock 是一个用于安装、查看、更新和同步 AI skills 与 MCP servers 的 skill 管理工具和 MCP 管理工具，并支持 Git-aware 更新，用于跟踪上游变更和本地修改。",
+      "source": "community",
+      "repoKey": "wanghuan9/skill-manager"
     },
     {
       "id": "jamesshi96-project-butler",
@@ -3546,6 +4554,18 @@
       "description": "10 Claude skills that generate studio-quality AI video prompts for Seedance 2.0 on Higgsfield. Viral hooks, SaaS demos, personal brand, faceless content, luxury aesthetic & more.",
       "source": "community",
       "repoKey": "rediumvex/ai-video-generator-claude"
+    },
+    {
+      "id": "highmark-31-trae-skills",
+      "title": "TRAE-Skills",
+      "category": "Collections",
+      "author": "HighMark-31",
+      "repo": "https://github.com/HighMark-31/TRAE-Skills",
+      "stars": 262,
+      "dateAdded": "2026-01-26",
+      "description": "A curated collection of 150+ specialized AI Skills for software development, frontend, backend, automation, UI/UX, SEO, and DevOps. Each skill encapsulates a focused capability: generating code, templates, scripts, and production-ready workflows.",
+      "source": "community",
+      "repoKey": "highmark-31/trae-skills"
     },
     {
       "id": "honnibal-claude-skills",
@@ -3642,6 +4662,18 @@
       "description": "19 Claude Code skills for Higgsfield AI — automate image generation, Seedance 2.0 video creation, and full UGC ad pipelines with Playwright browser automation",
       "source": "community",
       "repoKey": "akcodez/higgsfield-claude-skills"
+    },
+    {
+      "id": "vintlin-skill-flow",
+      "title": "skill-flow",
+      "category": "Development",
+      "author": "VintLin",
+      "repo": "https://github.com/VintLin/skill-flow",
+      "stars": 249,
+      "dateAdded": "2026-03-21",
+      "description": "Install, manage, and share skills across every major coding agent — Claude Code, Cursor, Copilot, and more.",
+      "source": "community",
+      "repoKey": "vintlin/skill-flow"
     },
     {
       "id": "aapersh-strategy-skills-for-claude",
@@ -3764,6 +4796,18 @@
       "repoKey": "spences10/svelte-claude-skills"
     },
     {
+      "id": "asgard-ai-platform-skills",
+      "title": "skills",
+      "category": "Development",
+      "author": "asgard-ai-platform",
+      "repo": "https://github.com/asgard-ai-platform/skills",
+      "stars": 217,
+      "dateAdded": "2026-04-07",
+      "description": "301 open-source coding agent skills across 22 domains — methodology, judgment & gotchas packaged as Claude Agent Skills for the Asgard AI Platform.",
+      "source": "community",
+      "repoKey": "asgard-ai-platform/skills"
+    },
+    {
       "id": "ognjengt-founder-skills",
       "title": "founder-skills",
       "category": "Other",
@@ -3810,6 +4854,18 @@
       "description": "实习.skill — 双非也能拿大厂 offer。帮你改简历、抠面经、准备面试，把真实背景翻译成面试官想要的样子。",
       "source": "community",
       "repoKey": "agentenatalie/get-job.skill"
+    },
+    {
+      "id": "scottcjn-beacon-skill",
+      "title": "beacon-skill",
+      "category": "Other",
+      "author": "Scottcjn",
+      "repo": "https://github.com/Scottcjn/beacon-skill",
+      "stars": 211,
+      "dateAdded": "2026-02-10",
+      "description": "Beacon - agent-to-agent pings with optional RTC value attached (BoTTube/Moltbook/RustChain + UDP bus)",
+      "source": "community",
+      "repoKey": "scottcjn/beacon-skill"
     },
     {
       "id": "chrisvoncsefalvay-claude-d3js-skill",
@@ -3860,6 +4916,18 @@
       "repoKey": "zouchenzhen/thesis-defense-pptx-skill"
     },
     {
+      "id": "kagurananaga-document-format-skills",
+      "title": "document-format-skills",
+      "category": "Documents",
+      "author": "KaguraNanaga",
+      "repo": "https://github.com/KaguraNanaga/document-format-skills",
+      "stars": 202,
+      "dateAdded": "2026-01-30",
+      "description": "Professional Word document formatting toolkit for Chinese documents",
+      "source": "community",
+      "repoKey": "kagurananaga/document-format-skills"
+    },
+    {
       "id": "osidemedia-higgsfield-ai-prompt-skill",
       "title": "higgsfield-ai-prompt-skill",
       "category": "Development",
@@ -3896,6 +4964,18 @@
       "repoKey": "thoughtbot/rails-audit-thoughtbot"
     },
     {
+      "id": "medusajs-medusa-agent-skills",
+      "title": "medusa-agent-skills",
+      "category": "Other",
+      "author": "medusajs",
+      "repo": "https://github.com/medusajs/medusa-agent-skills",
+      "stars": 197,
+      "dateAdded": "2026-01-15",
+      "description": "Agent skills and commands for Medusa best practices and conventions.",
+      "source": "community",
+      "repoKey": "medusajs/medusa-agent-skills"
+    },
+    {
       "id": "li-evan-bloom",
       "title": "Bloom",
       "category": "Development",
@@ -3918,6 +4998,30 @@
       "description": "This is a \"skill\" for claude to use FFUF.",
       "source": "community",
       "repoKey": "jthack/ffuf_claude_skill"
+    },
+    {
+      "id": "jeecgboot-skills",
+      "title": "skills",
+      "category": "Other",
+      "author": "jeecgboot",
+      "repo": "https://github.com/jeecgboot/skills",
+      "stars": 192,
+      "dateAdded": "2026-03-11",
+      "description": "JeecgBoot Skills — AI 驱动 · 一句话生成全套工件! 在 Claude Code 中，用一句话生成 代码 · 表单 · 流程 · 报表 · 图表 · 大屏 · 仪表盘。 覆盖 JeecgBoot 低代码平台 与 JimuReport 积木报表 两大产品的企业级开发全场景。",
+      "source": "community",
+      "repoKey": "jeecgboot/skills"
+    },
+    {
+      "id": "rito-w-skills-manager",
+      "title": "skills-manager",
+      "category": "Collections",
+      "author": "Rito-w",
+      "repo": "https://github.com/Rito-w/skills-manager",
+      "stars": 192,
+      "dateAdded": "2026-02-04",
+      "description": "A cross-platform skills manager for AI IDEs. Search marketplace, download locally, and install to Claude, Cursor, Windsurf, and more with one click.",
+      "source": "community",
+      "repoKey": "rito-w/skills-manager"
     },
     {
       "id": "abhinavbwj-claude-skills-for-computational-designers",
@@ -3966,6 +5070,18 @@
       "description": "A tool supports OPENAI and other LLMs with Claude Skills, you can also use it as a subagent",
       "source": "community",
       "repoKey": "smallnest/goskills"
+    },
+    {
+      "id": "shanliuling-skills-link",
+      "title": "skills-link",
+      "category": "Development",
+      "author": "shanliuling",
+      "repo": "https://github.com/shanliuling/skills-link",
+      "stars": 186,
+      "dateAdded": "2026-04-12",
+      "description": "Sync your local skills across 41+ AI coding agents with a single command.",
+      "source": "community",
+      "repoKey": "shanliuling/skills-link"
     },
     {
       "id": "blader-theorist",
@@ -4052,6 +5168,30 @@
       "repoKey": "distil-labs/distil-cli-skill"
     },
     {
+      "id": "korroai-drunk-claude",
+      "title": "drunk-claude",
+      "category": "Design & Creative",
+      "author": "KorroAi",
+      "repo": "https://github.com/KorroAi/drunk-claude",
+      "stars": 172,
+      "dateAdded": "2026-06-13",
+      "description": "Intensity slider from tipsy (0.1) to blackout (1.0). 5 moods, 8 creative techniques. Lowers inhibition, not intelligence. Unfiltered genius for Claude Code.",
+      "source": "community",
+      "repoKey": "korroai/drunk-claude"
+    },
+    {
+      "id": "neeeophytee-finding-unknowns-skills",
+      "title": "finding-unknowns-skills",
+      "category": "Workflows",
+      "author": "Neeeophytee",
+      "repo": "https://github.com/Neeeophytee/finding-unknowns-skills",
+      "stars": 171,
+      "dateAdded": "2026-07-05",
+      "description": "8 installable skills for Claude Code and OpenAI Codex, for finding your unknowns before they get expensive: blindspot pass, brainstorms, interviews, references, plans, notes, pitches, and a merge quiz. Community distillation, not official Anthropic.",
+      "source": "community",
+      "repoKey": "neeeophytee/finding-unknowns-skills"
+    },
+    {
       "id": "artwist-polyakov-polyakov-claude-skills",
       "title": "polyakov-claude-skills",
       "category": "Other",
@@ -4062,6 +5202,18 @@
       "description": "Набор скиллов для Claude",
       "source": "community",
       "repoKey": "artwist-polyakov/polyakov-claude-skills"
+    },
+    {
+      "id": "pablonax-ultracode-skill",
+      "title": "ultracode-skill",
+      "category": "Workflows",
+      "author": "PabloNAX",
+      "repo": "https://github.com/PabloNAX/ultracode-skill",
+      "stars": 168,
+      "dateAdded": "2026-05-31",
+      "description": "Codex-first Ultracode skill for dynamic coding workflows",
+      "source": "community",
+      "repoKey": "pablonax/ultracode-skill"
     },
     {
       "id": "jayzeedesign-awesome-claude-skills",
@@ -4088,6 +5240,30 @@
       "repoKey": "molefrog/skills"
     },
     {
+      "id": "gapmiss-obsidian-plugin-skill",
+      "title": "obsidian-plugin-skill",
+      "category": "Other",
+      "author": "gapmiss",
+      "repo": "https://github.com/gapmiss/obsidian-plugin-skill",
+      "stars": 165,
+      "dateAdded": "2025-10-22",
+      "description": "Agent SKILL for Obsidian.md plugin development",
+      "source": "community",
+      "repoKey": "gapmiss/obsidian-plugin-skill"
+    },
+    {
+      "id": "samber-cc-skills",
+      "title": "cc-skills",
+      "category": "Collections",
+      "author": "samber",
+      "repo": "https://github.com/samber/cc-skills",
+      "stars": 165,
+      "dateAdded": "2026-03-21",
+      "description": "🧑‍🎨 A collection of agentic skills that works",
+      "source": "community",
+      "repoKey": "samber/cc-skills"
+    },
+    {
       "id": "getbindu-awesome-claude-code-and-skills",
       "title": "awesome-claude-code-and-skills",
       "category": "Collections",
@@ -4098,6 +5274,18 @@
       "description": "A collection of Claude Skills",
       "source": "collection",
       "repoKey": "getbindu/awesome-claude-code-and-skills"
+    },
+    {
+      "id": "hashgraph-online-skill-publish",
+      "title": "skill-publish",
+      "category": "Development",
+      "author": "hashgraph-online",
+      "repo": "https://github.com/hashgraph-online/skill-publish",
+      "stars": 164,
+      "dateAdded": "2026-02-16",
+      "description": "GitHub Action and CLI to validate, monitor, and publish verifiable skills (SKILL.md) via Registry Broker",
+      "source": "community",
+      "repoKey": "hashgraph-online/skill-publish"
     },
     {
       "id": "harikrishna8121999-antigravity-workflows",
@@ -4124,6 +5312,18 @@
       "repoKey": "a-cat-with-carrots/onlyshot"
     },
     {
+      "id": "smnandre-symfony-ux-skills",
+      "title": "symfony-ux-skills",
+      "category": "Other",
+      "author": "smnandre",
+      "repo": "https://github.com/smnandre/symfony-ux-skills",
+      "stars": 161,
+      "dateAdded": "2026-03-02",
+      "description": "Symfony UX skills for Claude, Gemini, Codex, ... Live Component, Twig Component, Turbo, Stimulus",
+      "source": "community",
+      "repoKey": "smnandre/symfony-ux-skills"
+    },
+    {
       "id": "hao0321-ai-media-generator",
       "title": "ai-media-generator",
       "category": "Design & Creative",
@@ -4136,6 +5336,42 @@
       "repoKey": "hao0321/ai-media-generator"
     },
     {
+      "id": "wednesday-solutions-ai-agent-skills",
+      "title": "ai-agent-skills",
+      "category": "Design & Creative",
+      "author": "wednesday-solutions",
+      "repo": "https://github.com/wednesday-solutions/ai-agent-skills",
+      "stars": 160,
+      "dateAdded": "2026-02-02",
+      "description": "Pre-configured agent skills for Vibe Coded projects. These skills provide AI coding assistants (Claude Code, Cursor, etc.) with specific guidelines for code quality and design standards.",
+      "source": "community",
+      "repoKey": "wednesday-solutions/ai-agent-skills"
+    },
+    {
+      "id": "oxbshw-watch-skill",
+      "title": "watch-skill",
+      "category": "Design & Creative",
+      "author": "oxbshw",
+      "repo": "https://github.com/oxbshw/watch-skill",
+      "stars": 159,
+      "dateAdded": "2026-07-05",
+      "description": "Give any AI agent the ability to watch video — and to watch its own work and fix it. MCP + CLI + REST; scene-aware frames, OCR, local-first transcription, persistent index, and THE LOOP.",
+      "source": "community",
+      "repoKey": "oxbshw/watch-skill"
+    },
+    {
+      "id": "softspark-ai-toolkit",
+      "title": "ai-toolkit",
+      "category": "Development",
+      "author": "softspark",
+      "repo": "https://github.com/softspark/ai-toolkit",
+      "stars": 157,
+      "dateAdded": "2026-03-26",
+      "description": "Professional-grade AI coding toolkit: 94 skills, 44 agents, multi-platform (Claude, Cursor, Windsurf, Copilot, Gemini, Cline, Roo Code, Aider, Augment, Antigravity, Codex CLI, opencode).",
+      "source": "community",
+      "repoKey": "softspark/ai-toolkit"
+    },
+    {
       "id": "study8677-readme-skill",
       "title": "Readme.skill",
       "category": "Design & Creative",
@@ -4146,6 +5382,30 @@
       "description": "Turn your local Claude Code / Codex CLI history into a shareable, anonymized AI-Native developer profile + viral SVG poster. A skill, not a script — 100% local & read-only.",
       "source": "community",
       "repoKey": "study8677/readme.skill"
+    },
+    {
+      "id": "mongodb-agent-skills",
+      "title": "agent-skills",
+      "category": "Development",
+      "author": "mongodb",
+      "repo": "https://github.com/mongodb/agent-skills",
+      "stars": 154,
+      "dateAdded": "2026-02-26",
+      "description": "Use the official MongoDB Skills with your favorite coding agent to build faster.",
+      "source": "community",
+      "repoKey": "mongodb/agent-skills"
+    },
+    {
+      "id": "referodesign-refero-skill",
+      "title": "refero_skill",
+      "category": "Design & Creative",
+      "author": "referodesign",
+      "repo": "https://github.com/referodesign/refero_skill",
+      "stars": 154,
+      "dateAdded": "2026-02-05",
+      "description": "Research-first design skill for AI agents. 150K+ real app screens and flows via Refero MCP.",
+      "source": "community",
+      "repoKey": "referodesign/refero_skill"
     },
     {
       "id": "felixrieseberg-claude-coach",
@@ -4184,6 +5444,18 @@
       "repoKey": "nam271212/strategic-advisor-orchestrator"
     },
     {
+      "id": "angieruiz17-claude-fintech-skills",
+      "title": "claude-fintech-skills",
+      "category": "Other",
+      "author": "angieruiz17",
+      "repo": "https://github.com/angieruiz17/claude-fintech-skills",
+      "stars": 152,
+      "dateAdded": "2026-07-08",
+      "description": "claude fintech skills of running fintech infra, trading platforms, and borker-side systems in production",
+      "source": "community",
+      "repoKey": "angieruiz17/claude-fintech-skills"
+    },
+    {
       "id": "kanguruonline-claude-batchy-bulk",
       "title": "claude-batchy-bulk",
       "category": "Development",
@@ -4208,6 +5480,54 @@
       "repoKey": "1iry/multi-agent-architecture-advisor"
     },
     {
+      "id": "joellewis-finance-skills",
+      "title": "finance_skills",
+      "category": "Other",
+      "author": "JoelLewis",
+      "repo": "https://github.com/JoelLewis/finance_skills",
+      "stars": 150,
+      "dateAdded": "2026-02-15",
+      "description": "Claude Code skill plugins for financial services — 81 skills across 7 domain plugins covering investment management, compliance, advisory practice, trading, and operations.",
+      "source": "community",
+      "repoKey": "joellewis/finance_skills"
+    },
+    {
+      "id": "maxvaega-skillkit",
+      "title": "skillkit",
+      "category": "Other",
+      "author": "maxvaega",
+      "repo": "https://github.com/maxvaega/skillkit",
+      "stars": 150,
+      "dateAdded": "2025-10-26",
+      "description": "Implementing Skills functionality for your agents",
+      "source": "community",
+      "repoKey": "maxvaega/skillkit"
+    },
+    {
+      "id": "matlab-agent-skills-playground",
+      "title": "agent-skills-playground",
+      "category": "Other",
+      "author": "matlab",
+      "repo": "https://github.com/matlab/agent-skills-playground",
+      "stars": 149,
+      "dateAdded": "2025-10-25",
+      "description": "A sandbox for prototyping and demonstrating Agent Skills for MATLAB and Simulink work.",
+      "source": "community",
+      "repoKey": "matlab/agent-skills-playground"
+    },
+    {
+      "id": "pandazki-pneuma-skills",
+      "title": "pneuma-skills",
+      "category": "Other",
+      "author": "pandazki",
+      "repo": "https://github.com/pandazki/pneuma-skills",
+      "stars": 149,
+      "dateAdded": "2026-02-26",
+      "description": "Co-creation infrastructure for humans and code agents — visual environment, skills, continuous learning, and distribution.",
+      "source": "community",
+      "repoKey": "pandazki/pneuma-skills"
+    },
+    {
       "id": "iamzifei-wechat-article-publisher-skill",
       "title": "wechat-article-publisher-skill",
       "category": "Other",
@@ -4218,6 +5538,18 @@
       "description": "Claude Skill that publish on Wechat articles (微信公众号发布）",
       "source": "community",
       "repoKey": "iamzifei/wechat-article-publisher-skill"
+    },
+    {
+      "id": "wenyuchiou-ai-research-skills",
+      "title": "ai-research-skills",
+      "category": "Design & Creative",
+      "author": "WenyuChiou",
+      "repo": "https://github.com/WenyuChiou/ai-research-skills",
+      "stars": 147,
+      "dateAdded": "2026-04-25",
+      "description": "Universal SKILL.md catalog for research workflows: literature review, research design, project memory, manuscript writing, and cross-agent delegation for Claude Code, Codex, Gemini, Cursor, OpenClaw, and generic AI clients.",
+      "source": "community",
+      "repoKey": "wenyuchiou/ai-research-skills"
     },
     {
       "id": "rrezartprebreza-spring-boot-skills",
@@ -4232,16 +5564,52 @@
       "repoKey": "rrezartprebreza/spring-boot-skills"
     },
     {
-      "id": "wholiver-swiftui-design-skill",
-      "title": "swiftui-design-skill",
-      "category": "Design & Creative",
-      "author": "wholiver",
-      "repo": "https://github.com/wholiver/swiftui-design-skill",
-      "stars": 144,
-      "dateAdded": "2026-04-30",
-      "description": "SwiftUI Front-End Design Skills — Six Ironclad Rules Against AI Sloppiness, Design Direction Consulting, Brand Asset Guidelines, and Five-Dimensional Review. Supports all AI agent platforms, including Claude Code, Cursor, Codex, and OpenCode.",
+      "id": "tilework-tech-nori-skillsets",
+      "title": "nori-skillsets",
+      "category": "Other",
+      "author": "tilework-tech",
+      "repo": "https://github.com/tilework-tech/nori-skillsets",
+      "stars": 145,
+      "dateAdded": "2025-10-30",
+      "description": "System for managing collections of agent skills. Switch between skillsets seamlessly!",
       "source": "community",
-      "repoKey": "wholiver/swiftui-design-skill"
+      "repoKey": "tilework-tech/nori-skillsets"
+    },
+    {
+      "id": "impertio-studio-frappe-claude-skill-package",
+      "title": "Frappe_Claude_Skill_Package",
+      "category": "Development",
+      "author": "Impertio-Studio",
+      "repo": "https://github.com/Impertio-Studio/Frappe_Claude_Skill_Package",
+      "stars": 143,
+      "dateAdded": "2026-01-14",
+      "description": "60 deterministic Claude AI skills for Frappe Framework & ERPNext v14-v16 development and operations",
+      "source": "community",
+      "repoKey": "impertio-studio/frappe_claude_skill_package"
+    },
+    {
+      "id": "chat2anyllm-awesome-claude-skills",
+      "title": "awesome-claude-skills",
+      "category": "Collections",
+      "author": "Chat2AnyLLM",
+      "repo": "https://github.com/Chat2AnyLLM/awesome-claude-skills",
+      "stars": 141,
+      "dateAdded": "2025-12-23",
+      "description": "A curated list of awesome claude skills",
+      "source": "collection",
+      "repoKey": "chat2anyllm/awesome-claude-skills"
+    },
+    {
+      "id": "arabelatso-skills-4-se",
+      "title": "Skills-4-SE",
+      "category": "Collections",
+      "author": "ArabelaTso",
+      "repo": "https://github.com/ArabelaTso/Skills-4-SE",
+      "stars": 138,
+      "dateAdded": "2026-02-14",
+      "description": "A curated list of 180+ useful Claude Skills for Software Engineering and resources for customizing AI for SE workflows.",
+      "source": "community",
+      "repoKey": "arabelatso/skills-4-se"
     },
     {
       "id": "smerchek-claude-epub-skill",
@@ -4254,6 +5622,18 @@
       "description": "A Claude Skill for converting markdown documents, chat summaries, or research reports into a downloadable epub file that can be sent to kindle",
       "source": "community",
       "repoKey": "smerchek/claude-epub-skill"
+    },
+    {
+      "id": "eljulians-skillfile",
+      "title": "skillfile",
+      "category": "Development",
+      "author": "eljulians",
+      "repo": "https://github.com/eljulians/skillfile",
+      "stars": 136,
+      "dateAdded": "2026-03-06",
+      "description": "One-stop shop for AI skills and agents. Search 110K+ community skills, install and track them declaratively, and deploy across all major AI coding tools (Claude Code, Codex, Cursor, Antigravity and more)",
+      "source": "community",
+      "repoKey": "eljulians/skillfile"
     },
     {
       "id": "csthink-dashmotion",
@@ -4290,6 +5670,18 @@
       "description": "CLI for AI agents (Claude, Codex) to read, edit, and comment on .docx files with full format fidelity.",
       "source": "community",
       "repoKey": "kklimuk/docx-cli"
+    },
+    {
+      "id": "guia-matthieu-clawfu-skills",
+      "title": "clawfu-skills",
+      "category": "Communication",
+      "author": "guia-matthieu",
+      "repo": "https://github.com/guia-matthieu/clawfu-skills",
+      "stars": 133,
+      "dateAdded": "2026-01-31",
+      "description": "172 expert marketing skills for AI agents — ClawFu MCP Server",
+      "source": "community",
+      "repoKey": "guia-matthieu/clawfu-skills"
     },
     {
       "id": "ilyautov-humanizer-ru",
@@ -4340,16 +5732,16 @@
       "repoKey": "axiaoge2/apple-hig-designer"
     },
     {
-      "id": "bluzername-claude-code-terminal-title",
-      "title": "claude-code-terminal-title",
-      "category": "Other",
-      "author": "bluzername",
-      "repo": "https://github.com/bluzername/claude-code-terminal-title",
-      "stars": 130,
-      "dateAdded": "2025-11-07",
-      "description": "Automatically updates terminal window titles based on Claude Code tasks—stop guessing which terminal is which.",
+      "id": "goldziher-ai-rulez",
+      "title": "ai-rulez",
+      "category": "Workflows",
+      "author": "Goldziher",
+      "repo": "https://github.com/Goldziher/ai-rulez",
+      "stars": 129,
+      "dateAdded": "2025-06-24",
+      "description": "Complete AI development workflow for 19+ tools. Builtin rules, agents, and conventions out of the box. Generate native configs for Claude, Cursor, Copilot, Windsurf, Gemini, Codex and more.",
       "source": "community",
-      "repoKey": "bluzername/claude-code-terminal-title"
+      "repoKey": "goldziher/ai-rulez"
     },
     {
       "id": "uxkero-anydesign",
@@ -4424,6 +5816,18 @@
       "repoKey": "bjgreenberg/senior-engineering-partner"
     },
     {
+      "id": "jaccen-awesome-gaussian-skills",
+      "title": "Awesome-Gaussian-Skills",
+      "category": "Collections",
+      "author": "jaccen",
+      "repo": "https://github.com/jaccen/Awesome-Gaussian-Skills",
+      "stars": 118,
+      "dateAdded": "2026-04-28",
+      "description": "图形学与3DGS、空间智能持续更新论文；AI Agent Skills for 3D Gaussian Splatting, NeRF & Computer Graphics Research. 700+ methods, 25categories, 12skills. OpenClaw / Claude Code compatible.",
+      "source": "collection",
+      "repoKey": "jaccen/awesome-gaussian-skills"
+    },
+    {
       "id": "wrsmith108-linear-claude-skill",
       "title": "linear-claude-skill",
       "category": "Workflows",
@@ -4446,6 +5850,18 @@
       "description": "Unofficial D&D 5e Dungeon Master for Claude Code — persistent campaigns, full 5e mechanics, and an optional cinematic display companion for your TV",
       "source": "community",
       "repoKey": "neuralinitiative/claude-dnd-skill"
+    },
+    {
+      "id": "hoangthequyen-think-better",
+      "title": "think-better",
+      "category": "Other",
+      "author": "HoangTheQuyen",
+      "repo": "https://github.com/HoangTheQuyen/think-better",
+      "stars": 115,
+      "dateAdded": "2026-03-03",
+      "description": "The Operating System for Clear Thinking & Better Decisions",
+      "source": "community",
+      "repoKey": "hoangthequyen/think-better"
     },
     {
       "id": "dososo-blcaptain-style-skill",
@@ -4520,6 +5936,18 @@
       "repoKey": "pcx-wave/vibe-skill"
     },
     {
+      "id": "onlyterp-prompt-cache-skills",
+      "title": "prompt-cache-skills",
+      "category": "Development",
+      "author": "OnlyTerp",
+      "repo": "https://github.com/OnlyTerp/prompt-cache-skills",
+      "stars": 107,
+      "dateAdded": "2026-05-28",
+      "description": "Drop-in prompt-caching fixes for the LLM agent harness you use. Point your AI coding agent at this repo and it ships the patches.",
+      "source": "community",
+      "repoKey": "onlyterp/prompt-cache-skills"
+    },
+    {
       "id": "swaylq-master-skill",
       "title": "master-skill",
       "category": "Development",
@@ -4590,486 +6018,6 @@
       "description": "A Git-based package manager designed for AI-assisted development, similar to npm but supporting skills, agents, commands, hooks, and any AI resource types.",
       "source": "community",
       "repoKey": "arkylab/aspm"
-    },
-    {
-      "id": "smixs-creative-director-skill",
-      "title": "creative-director-skill",
-      "category": "Design & Creative",
-      "author": "smixs",
-      "repo": "https://github.com/smixs/creative-director-skill",
-      "stars": 98,
-      "dateAdded": "2026-02-27",
-      "description": "World-class creative director in a skill. Methodology-driven ideation (SIT, TRIZ, Lateral Thinking, bisociation) + a Cannes Lions evaluation engine, powered by a library of 571 legendary award-winning cases.",
-      "source": "community",
-      "repoKey": "smixs/creative-director-skill"
-    },
-    {
-      "id": "djfksjd-ir-search",
-      "title": "ir-search",
-      "category": "Other",
-      "author": "djfksjd",
-      "repo": "https://github.com/djfksjd/ir-search",
-      "stars": 97,
-      "dateAdded": "2026-07-11",
-      "description": "🇰🇷 한국 정부 지원사업 전수조사 Claude Code 스킬 — K-Startup·기업마당·NIPA·KOCCA·SMTECH 크롤링 + 프로젝트 프로필 기반 즉시/로드맵/변형 3분류 (Korea-only)",
-      "source": "community",
-      "repoKey": "djfksjd/ir-search"
-    },
-    {
-      "id": "tonylofgren-aurora-smart-home",
-      "title": "aurora-smart-home",
-      "category": "Design & Creative",
-      "author": "tonylofgren",
-      "repo": "https://github.com/tonylofgren/aurora-smart-home",
-      "stars": 95,
-      "dateAdded": "2025-12-29",
-      "description": "Independent Claude Skills for the whole smart home: Home Assistant, ESPHome, Node-RED, custom integrations, dashboards, and fab-ready hardware design.",
-      "source": "community",
-      "repoKey": "tonylofgren/aurora-smart-home"
-    },
-    {
-      "id": "nokonoko1203-claude-code-settings",
-      "title": "claude-code-settings",
-      "category": "Other",
-      "author": "nokonoko1203",
-      "repo": "https://github.com/nokonoko1203/claude-code-settings",
-      "stars": 93,
-      "dateAdded": "2025-07-17",
-      "description": "Best Practices for Claude Code Configuration",
-      "source": "community",
-      "repoKey": "nokonoko1203/claude-code-settings"
-    },
-    {
-      "id": "nikolai-vysotskyi-trace-mcp",
-      "title": "trace-mcp",
-      "category": "Development",
-      "author": "nikolai-vysotskyi",
-      "repo": "https://github.com/nikolai-vysotskyi/trace-mcp",
-      "stars": 92,
-      "dateAdded": "2026-04-03",
-      "description": "MCP server for Claude Code and Codex. One tool call replaces ~42 minutes of agent exploration",
-      "source": "community",
-      "repoKey": "nikolai-vysotskyi/trace-mcp"
-    },
-    {
-      "id": "emaynard-claude-family-history-research-skill",
-      "title": "claude-family-history-research-skill",
-      "category": "Workflows",
-      "author": "emaynard",
-      "repo": "https://github.com/emaynard/claude-family-history-research-skill",
-      "stars": 92,
-      "dateAdded": "2025-10-17",
-      "description": "A Claude Skill to assist with family history and genealogy research planning.",
-      "source": "community",
-      "repoKey": "emaynard/claude-family-history-research-skill"
-    },
-    {
-      "id": "anhvt52-jetpack-compose-skills",
-      "title": "jetpack-compose-skills",
-      "category": "Other",
-      "author": "anhvt52",
-      "repo": "https://github.com/anhvt52/jetpack-compose-skills",
-      "stars": 90,
-      "dateAdded": "2026-03-12",
-      "description": "Agent skill for modern Android development with Jetpack Compose — best practices for code generation and review",
-      "source": "community",
-      "repoKey": "anhvt52/jetpack-compose-skills"
-    },
-    {
-      "id": "lanfuli-aleabito-serenity-skills",
-      "title": "aleabito-serenity-skills",
-      "category": "Other",
-      "author": "lanfuli",
-      "repo": "https://github.com/lanfuli/aleabito-serenity-skills",
-      "stars": 88,
-      "dateAdded": "2026-05-30",
-      "description": "Claude/Codex agent skills distilled from @aleabitoreddit (Serenity)'s full public archive — track her, analyze like her, anticipate her next focus. Bilingual 中文/English.",
-      "source": "community",
-      "repoKey": "lanfuli/aleabito-serenity-skills"
-    },
-    {
-      "id": "rediumvex-social-media-caption-generator-claude",
-      "title": "social-media-caption-generator-claude",
-      "category": "Other",
-      "author": "rediumvex",
-      "repo": "https://github.com/rediumvex/social-media-caption-generator-claude",
-      "stars": 87,
-      "dateAdded": "2026-04-10",
-      "description": "Social media caption generator as a Claude skill — turn any text, script, or screenshot into ready-to-post captions for Instagram Reels, Carousel, TikTok, Threads, Facebook, YouTube Shorts. Algorithm-optimized for shares, saves, and completion rate. Built by @theromanknox (280K+ IG).",
-      "source": "community",
-      "repoKey": "rediumvex/social-media-caption-generator-claude"
-    },
-    {
-      "id": "omkamal-pypict-claude-skill",
-      "title": "pypict-claude-skill",
-      "category": "Testing & QA",
-      "author": "omkamal",
-      "repo": "https://github.com/omkamal/pypict-claude-skill",
-      "stars": 87,
-      "dateAdded": "2025-10-19",
-      "description": "A claude skill that generate test cases using N-wise test cases using the pypict library",
-      "source": "community",
-      "repoKey": "omkamal/pypict-claude-skill"
-    },
-    {
-      "id": "dheerg-swarms",
-      "title": "swarms",
-      "category": "Other",
-      "author": "DheerG",
-      "repo": "https://github.com/DheerG/swarms",
-      "stars": 82,
-      "dateAdded": "2026-04-05",
-      "description": "Achieve extraordinary results with claude code across a variety of tasks",
-      "source": "community",
-      "repoKey": "dheerg/swarms"
-    },
-    {
-      "id": "salesforceairesearch-agentforce-adlc",
-      "title": "agentforce-adlc",
-      "category": "Other",
-      "author": "SalesforceAIResearch",
-      "repo": "https://github.com/SalesforceAIResearch/agentforce-adlc",
-      "stars": 82,
-      "dateAdded": "2026-04-10",
-      "description": "Agent Development Life Cycle — Build, deploy, test, and optimize Agentforce agents using Claude Code skills and Agent Script DSL.",
-      "source": "community",
-      "repoKey": "salesforceairesearch/agentforce-adlc"
-    },
-    {
-      "id": "bomx-qwoted-seo-backlinks-skill",
-      "title": "qwoted-seo-backlinks-skill",
-      "category": "Communication",
-      "author": "Bomx",
-      "repo": "https://github.com/Bomx/qwoted-seo-backlinks-skill",
-      "stars": 81,
-      "dateAdded": "2026-04-23",
-      "description": "Claude Code skill: find PR/backlink opportunities on Qwoted, build a sourced statistics page as a linkable asset, and pitch journalists — all from your AI agent.",
-      "source": "community",
-      "repoKey": "bomx/qwoted-seo-backlinks-skill"
-    },
-    {
-      "id": "zhouwei713-fpv-immersive-video-prompting",
-      "title": "fpv-immersive-video-prompting",
-      "category": "Design & Creative",
-      "author": "zhouwei713",
-      "repo": "https://github.com/zhouwei713/fpv-immersive-video-prompting",
-      "stars": 79,
-      "dateAdded": "2026-06-09",
-      "description": "Route-first FPV AI video prompting skill for Seedance, Kling, Runway, Veo, GPT Image asset packs, numbered stops, and red-line path control.",
-      "source": "community",
-      "repoKey": "zhouwei713/fpv-immersive-video-prompting"
-    },
-    {
-      "id": "alisa0808-vox-director",
-      "title": "vox-director",
-      "category": "Design & Creative",
-      "author": "Alisa0808",
-      "repo": "https://github.com/Alisa0808/vox-director",
-      "stars": 76,
-      "dateAdded": "2026-07-10",
-      "description": "Turn one topic into a finished Vox-style paper-collage explainer/ad video — automated end to end on Atlas Cloud + ffmpeg. An agent skill.",
-      "source": "community",
-      "repoKey": "alisa0808/vox-director"
-    },
-    {
-      "id": "ndjordjevic-pin-llm-wiki",
-      "title": "pin-llm-wiki",
-      "category": "Workflows",
-      "author": "ndjordjevic",
-      "repo": "https://github.com/ndjordjevic/pin-llm-wiki",
-      "stars": 76,
-      "dateAdded": "2026-04-21",
-      "description": "Skill for Claude, Cursor & Copilot that automates the Karpathy LLM Wiki workflow: ingest web, GitHub, and YouTube URLs into a well-structured, citable, cross-referenced knowledge base with automatic linting.",
-      "source": "community",
-      "repoKey": "ndjordjevic/pin-llm-wiki"
-    },
-    {
-      "id": "iamzifei-wechat-article-formatter-skill",
-      "title": "wechat-article-formatter-skill",
-      "category": "Other",
-      "author": "iamzifei",
-      "repo": "https://github.com/iamzifei/wechat-article-formatter-skill",
-      "stars": 73,
-      "dateAdded": "2026-01-14",
-      "description": "Claude Skill that format Wechat articles for 微信公众号 (微信公众号文章排版，支持自定义样式)",
-      "source": "community",
-      "repoKey": "iamzifei/wechat-article-formatter-skill"
-    },
-    {
-      "id": "kimlawtech-korean-jangbu-for",
-      "title": "korean-jangbu-for",
-      "category": "Documents",
-      "author": "kimlawtech",
-      "repo": "https://github.com/kimlawtech/korean-jangbu-for",
-      "stars": 71,
-      "dateAdded": "2026-04-22",
-      "description": "한국 스타트업, 1인 법인, 프리랜서, 개인 사업자를 위한 장부 자동 생성 Claude Code 스킬. 카드명세서 PDF·은행 CSV → 재무제표·세무사 전달 CSV 자동 생성. Level 2 민감정보 마스킹 적용.",
-      "source": "community",
-      "repoKey": "kimlawtech/korean-jangbu-for"
-    },
-    {
-      "id": "javajack-skill-algotrader",
-      "title": "skill-algotrader",
-      "category": "Other",
-      "author": "javajack",
-      "repo": "https://github.com/javajack/skill-algotrader",
-      "stars": 70,
-      "dateAdded": "2026-02-14",
-      "description": "Quantitative trading skill for Indian equity markets with Zerodha integration. Generate trading bots, fetch live index data, and manage risk with Claude Code.",
-      "source": "community",
-      "repoKey": "javajack/skill-algotrader"
-    },
-    {
-      "id": "001tmf-harness-forge",
-      "title": "harness-forge",
-      "category": "Workflows",
-      "author": "001TMF",
-      "repo": "https://github.com/001TMF/harness-forge",
-      "stars": 69,
-      "dateAdded": "2026-06-14",
-      "description": "Turn Claude Code into its own Meta-Harness — a skill that evolves the scaffolding around a fixed model (memory, retrieval, context, prompts) via a native propose→score→Pareto loop. Native reimplementation of Meta-Harness (Lee et al. 2026).",
-      "source": "community",
-      "repoKey": "001tmf/harness-forge"
-    },
-    {
-      "id": "thepushkarp-cc-gemini-plugin",
-      "title": "cc-gemini-plugin",
-      "category": "Other",
-      "author": "thepushkarp",
-      "repo": "https://github.com/thepushkarp/cc-gemini-plugin",
-      "stars": 68,
-      "dateAdded": "2026-01-23",
-      "description": "Gemini CLI integration for Claude Code and Codex.",
-      "source": "community",
-      "repoKey": "thepushkarp/cc-gemini-plugin"
-    },
-    {
-      "id": "vonarmen-wq-forward-deployed-selling",
-      "title": "forward-deployed-selling",
-      "category": "Other",
-      "author": "vonarmen-wq",
-      "repo": "https://github.com/vonarmen-wq/forward-deployed-selling",
-      "stars": 67,
-      "dateAdded": "2026-05-10",
-      "description": "You ship with AI. Now sell with it. Enterprise sales methodology for the AI era — refined inside AWS. Free Claude skill, 60-second install.",
-      "source": "community",
-      "repoKey": "vonarmen-wq/forward-deployed-selling"
-    },
-    {
-      "id": "jaderson-bit-mindmap-markmap-viewer",
-      "title": "mindmap-markmap-viewer",
-      "category": "Other",
-      "author": "Jaderson-bit",
-      "repo": "https://github.com/Jaderson-bit/mindmap-markmap-viewer",
-      "stars": 65,
-      "dateAdded": "2026-06-07",
-      "description": "A Claude Code skill that turns Markdown outlines into interactive, offline mind maps with markmap.js — white-on-dark, searchable (match + ancestors), with a zoom / expand / export toolbar.",
-      "source": "community",
-      "repoKey": "jaderson-bit/mindmap-markmap-viewer"
-    },
-    {
-      "id": "viryazheng-wrap-skill",
-      "title": "wrap-skill",
-      "category": "Other",
-      "author": "ViryaZheng",
-      "repo": "https://github.com/ViryaZheng/wrap-skill",
-      "stars": 64,
-      "dateAdded": "2026-05-05",
-      "description": "A Claude Code skill that consolidates scattered project markdown files into a single canonical CLAUDE.md, with a pinned PROGRESS block at the top.",
-      "source": "community",
-      "repoKey": "viryazheng/wrap-skill"
-    },
-    {
-      "id": "salespeak-ai-buyer-eval-skill",
-      "title": "buyer-eval-skill",
-      "category": "Other",
-      "author": "salespeak-ai",
-      "repo": "https://github.com/salespeak-ai/buyer-eval-skill",
-      "stars": 64,
-      "dateAdded": "2026-03-26",
-      "description": "B2B software vendor evaluation skill for Claude Code — domain-expert questions, vendor AI agent conversations, evidence-based scoring",
-      "source": "community",
-      "repoKey": "salespeak-ai/buyer-eval-skill"
-    },
-    {
-      "id": "stewie-pixel-claude-with-leetcode",
-      "title": "claude-with-leetcode",
-      "category": "Other",
-      "author": "Stewie-pixel",
-      "repo": "https://github.com/Stewie-pixel/claude-with-leetcode",
-      "stars": 62,
-      "dateAdded": "2025-08-25",
-      "description": "Daily Leetcode masterclass with Claude code DSA mentor",
-      "source": "community",
-      "repoKey": "stewie-pixel/claude-with-leetcode"
-    },
-    {
-      "id": "ashutos1997-claude-design-auditor-skill",
-      "title": "claude-design-auditor-skill",
-      "category": "Design & Creative",
-      "author": "Ashutos1997",
-      "repo": "https://github.com/Ashutos1997/claude-design-auditor-skill",
-      "stars": 62,
-      "dateAdded": "2026-03-04",
-      "description": "A Claude skill that audits designs against 19 professional design rules.",
-      "source": "community",
-      "repoKey": "ashutos1997/claude-design-auditor-skill"
-    },
-    {
-      "id": "mturac-simulacra",
-      "title": "simulacra",
-      "category": "Other",
-      "author": "mturac",
-      "repo": "https://github.com/mturac/simulacra",
-      "stars": 61,
-      "dateAdded": "2026-05-26",
-      "description": "Ghost personas review your code before it ships. Find edge cases, race conditions, and business logic bugs before production.",
-      "source": "community",
-      "repoKey": "mturac/simulacra"
-    },
-    {
-      "id": "tomwong001-qingsheng-skill",
-      "title": "qingsheng-skill",
-      "category": "Other",
-      "author": "tomwong001",
-      "repo": "https://github.com/tomwong001/qingsheng-skill",
-      "stars": 60,
-      "dateAdded": "2026-03-12",
-      "description": "情圣 · Claude Code 中文恋爱教练技能 · 微信/探探/Soul/Bumble/青藤之恋聊天截图分析 · 高情商回复生成 · 7阶段关系推进",
-      "source": "community",
-      "repoKey": "tomwong001/qingsheng-skill"
-    },
-    {
-      "id": "avelikiy-great-cto",
-      "title": "great_cto",
-      "category": "Security",
-      "author": "avelikiy",
-      "repo": "https://github.com/avelikiy/great_cto",
-      "stars": 53,
-      "dateAdded": "2026-04-05",
-      "description": "Don't buy software. Get the work done. GreatCTO ships AI autopilots that run a whole business function — medical coding, legal docs, procurement, accounting, IT, tax — from intake to outcome. A qualified human signs only the judgment calls. Live connectors, built-in compliance.",
-      "source": "community",
-      "repoKey": "avelikiy/great_cto"
-    },
-    {
-      "id": "sboghossian-master-claude-for-legal",
-      "title": "master-claude-for-legal",
-      "category": "Documents",
-      "author": "sboghossian",
-      "repo": "https://github.com/sboghossian/master-claude-for-legal",
-      "stars": 46,
-      "dateAdded": "2026-04-27",
-      "description": "Master skill pack for legal teams using Claude. References, starter skills, templates, and the source webinar dataset. Built from Anthropic's Claude for Legal Teams webinar + HAQQ deployment experience. MIT.",
-      "source": "community",
-      "repoKey": "sboghossian/master-claude-for-legal"
-    },
-    {
-      "id": "anjos2-recursive-research",
-      "title": "recursive-research",
-      "category": "Other",
-      "author": "Anjos2",
-      "repo": "https://github.com/Anjos2/recursive-research",
-      "stars": 29,
-      "dateAdded": "2026-04-22",
-      "description": "Claude Code skill for recursive research up to PhD level across any domain. Source tiering, WDM + Munger inversion for autonomous decisions, and disk checkpointing to survive context compaction.",
-      "source": "community",
-      "repoKey": "anjos2/recursive-research"
-    },
-    {
-      "id": "emory-asd-audhd-pai-skills",
-      "title": "ASD-AuDHD-PAI-Skills",
-      "category": "Other",
-      "author": "emory",
-      "repo": "https://github.com/emory/ASD-AuDHD-PAI-Skills",
-      "stars": 27,
-      "dateAdded": "2025-12-17",
-      "description": "A collection of Skills for your Personal AI Infrastructure and mobile apps like Claude Mobile useful for parents of children of autism spectrum disorders or anyone else that has demand avoidance impulses.",
-      "source": "community",
-      "repoKey": "emory/asd-audhd-pai-skills"
-    },
-    {
-      "id": "1nickpappas-move-code-quality-skill",
-      "title": "move-code-quality-skill",
-      "category": "Other",
-      "author": "1NickPappas",
-      "repo": "https://github.com/1NickPappas/move-code-quality-skill",
-      "stars": 22,
-      "dateAdded": "2025-10-21",
-      "description": "Claude Code skill for analyzing Move packages against the official Move Book Code Quality Checklist",
-      "source": "community",
-      "repoKey": "1nickpappas/move-code-quality-skill"
-    },
-    {
-      "id": "openweb-org-openweb",
-      "title": "openweb",
-      "category": "Development",
-      "author": "openweb-org",
-      "repo": "https://github.com/openweb-org/openweb",
-      "stars": 19,
-      "dateAdded": "2026-04-03",
-      "description": "Agent-native way to access any website. Bridging agent CLI and web GUI through API.",
-      "source": "community",
-      "repoKey": "openweb-org/openweb"
-    },
-    {
-      "id": "santiago-vargas-de-kruijf-claude-overkill",
-      "title": "claude-overkill",
-      "category": "Design & Creative",
-      "author": "santiago-vargas-de-kruijf",
-      "repo": "https://github.com/santiago-vargas-de-kruijf/claude-overkill",
-      "stars": 13,
-      "dateAdded": "2026-05-20",
-      "description": "A thoughtful \"Root of all evil\" for engineers and explorers of the software arts. Take any problem a step past the pragmatic answer. A Claude Code skill that surfaces advanced data structures, distributed-systems algorithms, niche frameworks, and frontier tooling — each scored on a calibrated complexity scale.",
-      "source": "community",
-      "repoKey": "santiago-vargas-de-kruijf/claude-overkill"
-    },
-    {
-      "id": "anandpareek-hub-pixelbin-claude-skill",
-      "title": "pixelbin-claude-skill",
-      "category": "Design & Creative",
-      "author": "anandpareek-hub",
-      "repo": "https://github.com/anandpareek-hub/pixelbin-claude-skill",
-      "stars": 11,
-      "dateAdded": "2026-04-30",
-      "description": "Claude skill for production media pipelines — 85+ AI APIs, 60+ URL transformations, CDN, DAM. Drop product photos in chat, get e-commerce-ready output.",
-      "source": "community",
-      "repoKey": "anandpareek-hub/pixelbin-claude-skill"
-    },
-    {
-      "id": "lewisliu007-full-page-screenshot",
-      "title": "full-page-screenshot",
-      "category": "Other",
-      "author": "LewisLiu007",
-      "repo": "https://github.com/LewisLiu007/full-page-screenshot",
-      "stars": 8,
-      "dateAdded": "2026-04-28",
-      "description": "Claude Code skill: zero-dependency full-page screenshot via Chrome DevTools Protocol",
-      "source": "community",
-      "repoKey": "lewisliu007/full-page-screenshot"
-    },
-    {
-      "id": "buildshipgrowrepeat-nextjs-sanity-blog-skill",
-      "title": "nextjs-sanity-blog-skill",
-      "category": "Design & Creative",
-      "author": "BuildShipGrowRepeat",
-      "repo": "https://github.com/BuildShipGrowRepeat/nextjs-sanity-blog-skill",
-      "stars": 5,
-      "dateAdded": "2026-05-21",
-      "description": "Opinionated Claude Code skill for adding an SEO-first, translate-ready blog to a Next.js + Sanity site. 40-question intake, one-page plan, batteries-included spec, AI hero images via Nano Banana Pro.",
-      "source": "community",
-      "repoKey": "buildshipgrowrepeat/nextjs-sanity-blog-skill"
-    },
-    {
-      "id": "rockscy-solo-skills",
-      "title": "solo-skills",
-      "category": "Communication",
-      "author": "rockscy",
-      "repo": "https://github.com/rockscy/solo-skills",
-      "stars": 5,
-      "dateAdded": "2026-04-30",
-      "description": "Claude Code skills for people who ship alone. 7 bilingual (EN+中文) skills for solo founders and indie devs: launch tweets, customer emails, decision frameworks, postmortems, and more.",
-      "source": "community",
-      "repoKey": "rockscy/solo-skills"
     }
   ]
 }
