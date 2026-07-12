@@ -57,6 +57,14 @@ export const TerminalIcon = (p) => (
   <I {...p} path="M117.31,134l-72,64a8,8,0,1,1-10.63-12L100,128,34.69,70A8,8,0,1,1,45.32,58l72,64a8,8,0,0,1,0,12ZM216,184H120a8,8,0,0,0,0,16h96a8,8,0,0,0,0-16Z" />
 );
 
+export const CaretLeftIcon = (p) => (
+  <I {...p} path="M165.66,202.34a8,8,0,0,1-11.32,11.32l-80-80a8,8,0,0,1,0-11.32l80-80a8,8,0,0,1,11.32,11.32L91.31,128Z" />
+);
+
+export const CaretRightIcon = (p) => (
+  <I {...p} path="M181.66,133.66l-80,80a8,8,0,0,1-11.32-11.32L164.69,128,90.34,53.66a8,8,0,0,1,11.32-11.32l80,80A8,8,0,0,1,181.66,133.66Z" />
+);
+
 export function Stars({ value, size = 12 }) {
   return (
     <span style={{ display: "inline-flex", gap: 1, color: "var(--color-accent)" }}>

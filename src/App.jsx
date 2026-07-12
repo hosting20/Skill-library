@@ -2,10 +2,57 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { SKILLS, CATEGORIES, CATALOG_SYNCED_AT, averageRating, formatStars } from "./data/skills";
 import {
   MoonIcon, SunIcon, SearchIcon, CheckIcon, CloseIcon, CopyIcon,
-  StarIcon, GithubIcon, UserIcon, CalendarIcon, TerminalIcon, Stars,
+  StarIcon, GithubIcon, UserIcon, CalendarIcon, TerminalIcon,
+  CaretLeftIcon, CaretRightIcon, Stars,
 } from "./icons";
 
 const THEME_KEY = "skill-library-theme";
+const PAGE_SIZE = 24;
+
+// Compact page list: 1 … current-1 current current+1 … last
+function pageList(current, total) {
+  const wanted = [...new Set([1, total, current - 1, current, current + 1])]
+    .filter((p) => p >= 1 && p <= total)
+    .sort((a, b) => a - b);
+  const out = [];
+  let prev = 0;
+  for (const p of wanted) {
+    if (p - prev > 1) out.push("…");
+    out.push(p);
+    prev = p;
+  }
+  return out;
+}
+
+function Pager({ page, pageCount, onPage }) {
+  if (pageCount <= 1) return null;
+  return (
+    <nav aria-label="Pagination" style={{ display: "flex", justifyContent: "center", alignItems: "center", gap: 6, marginTop: "var(--space-4)", flexWrap: "wrap" }}>
+      <button type="button" className="btn btn-icon btn-secondary" aria-label="Previous page" disabled={page === 1} onClick={() => onPage(page - 1)}>
+        <CaretLeftIcon size={14} />
+      </button>
+      {pageList(page, pageCount).map((p, i) =>
+        p === "…" ? (
+          <span key={`gap-${i}`} className="text-muted" style={{ fontSize: 12, padding: "0 4px" }}>…</span>
+        ) : (
+          <button
+            key={p}
+            type="button"
+            className={p === page ? "btn btn-primary" : "btn btn-secondary"}
+            aria-current={p === page ? "page" : undefined}
+            style={{ minWidth: 34, fontSize: 12 }}
+            onClick={() => onPage(p)}
+          >
+            {p}
+          </button>
+        )
+      )}
+      <button type="button" className="btn btn-icon btn-secondary" aria-label="Next page" disabled={page === pageCount} onClick={() => onPage(page + 1)}>
+        <CaretRightIcon size={14} />
+      </button>
+    </nav>
+  );
+}
 
 function SkillCard({ skill, onQuickView }) {
   const rating = averageRating(skill);
@@ -189,6 +236,10 @@ export default function App() {
   const [selectedCategories, setSelectedCategories] = useState([]);
   const [sort, setSort] = useState("newest");
   const [quickViewId, setQuickViewId] = useState(null);
+  const [page, setPage] = useState(1);
+
+  // Back to page 1 whenever the visible set changes
+  useEffect(() => { setPage(1); }, [search, selectedCategories, sort]);
 
   useEffect(() => {
     const onKey = (e) => { if (e.key === "Escape") setQuickViewId(null); };
@@ -235,6 +286,17 @@ export default function App() {
   ];
 
   const quickViewSkill = quickViewId ? SKILLS.find((s) => s.id === quickViewId) : null;
+
+  const pageCount = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
+  const safePage = Math.min(page, pageCount);
+  const paged = filtered.slice((safePage - 1) * PAGE_SIZE, safePage * PAGE_SIZE);
+  const rangeStart = filtered.length === 0 ? 0 : (safePage - 1) * PAGE_SIZE + 1;
+  const rangeEnd = Math.min(safePage * PAGE_SIZE, filtered.length);
+
+  const goToPage = (p) => {
+    setPage(p);
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
 
   return (
     <div data-theme={theme} className="sl-root">
@@ -316,7 +378,8 @@ export default function App() {
         <main style={{ minWidth: 0, display: "flex", flexDirection: "column", gap: "var(--space-4)" }}>
           <div style={{ display: "flex", flexWrap: "wrap", alignItems: "center", gap: "var(--space-3)" }}>
             <p style={{ margin: 0, fontSize: 14, opacity: 0.85 }}>
-              Showing {filtered.length} of {SKILLS.length} Skills
+              Showing {rangeStart}–{rangeEnd} of {filtered.length} Skills
+              {filtered.length !== SKILLS.length ? ` (${SKILLS.length} total)` : ""}
             </p>
             {activeBadges.length > 0 && (
               <div style={{ display: "flex", flexWrap: "wrap", alignItems: "center", gap: 6 }}>
@@ -336,11 +399,14 @@ export default function App() {
           </div>
 
           {filtered.length > 0 ? (
-            <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(280px, 1fr))", gap: "var(--space-4)" }}>
-              {filtered.map((skill) => (
-                <SkillCard key={skill.id} skill={skill} onQuickView={() => setQuickViewId(skill.id)} />
-              ))}
-            </div>
+            <>
+              <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(280px, 1fr))", gap: "var(--space-4)" }}>
+                {paged.map((skill) => (
+                  <SkillCard key={skill.id} skill={skill} onQuickView={() => setQuickViewId(skill.id)} />
+                ))}
+              </div>
+              <Pager page={safePage} pageCount={pageCount} onPage={goToPage} />
+            </>
           ) : (
             <div style={{ textAlign: "center", padding: "calc(var(--space-8) * 2) 0", opacity: 0.6 }}>
               <p style={{ margin: "0 0 var(--space-2)", fontSize: 16 }}>No skills match your filters.</p>
