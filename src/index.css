@@ -1,0 +1,162 @@
+/* Skill Library — page-level styles layered on the Nocturne design system. */
+@import "./nocturne.css";
+
+/* Light theme override, per the design handoff */
+[data-theme="light"] {
+  --color-bg: #f3f5fe;
+  --color-surface: #ffffff;
+  --color-text: #23222c;
+  --color-accent: #796cbf;
+  --color-accent-2: #7972a9;
+  --color-divider: color-mix(in srgb, #23222c 14%, transparent);
+  --shadow-sm: 0 0 0 1px rgba(20, 20, 34, 0.1);
+  --shadow-md: 0 0 0 1px rgba(20, 20, 34, 0.1), 0 6px 18px rgba(20, 20, 34, 0.1);
+  --shadow-lg: 0 0 0 1px rgba(20, 20, 34, 0.12), 0 16px 40px rgba(20, 20, 34, 0.16);
+}
+
+.sl-root {
+  min-height: 100vh;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.sl-navwrap {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background: var(--color-bg);
+  border-bottom: 1px solid var(--color-divider);
+}
+
+.sl-shell {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: var(--space-6);
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  gap: var(--space-6);
+}
+
+.sl-sidebar {
+  position: sticky;
+  top: 64px;
+  align-self: start;
+  height: calc(100vh - 96px);
+  overflow-y: auto;
+  padding-right: var(--space-4);
+  border-right: 1px solid var(--color-divider);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-6);
+}
+
+.sl-catrow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  text-align: left;
+  padding: 7px 10px;
+  border-radius: var(--radius-md);
+  border: 1px solid transparent;
+  background: transparent;
+  cursor: pointer;
+  font: inherit;
+  font-size: 13px;
+  color: var(--color-text);
+}
+.sl-catrow:hover {
+  background: color-mix(in srgb, var(--color-text) 6%, transparent);
+}
+
+.sl-catdot {
+  width: 14px;
+  height: 14px;
+  flex: none;
+  border-radius: 4px;
+  border: 1.5px solid var(--color-divider);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sl-badge-x {
+  display: inline-flex;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  color: inherit;
+  opacity: 0.7;
+}
+.sl-badge-x:hover { opacity: 1; }
+
+.sl-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 40;
+  background: color-mix(in srgb, var(--color-neutral-900) 55%, transparent);
+  animation: sl-backdrop-in 0.15s ease;
+}
+
+.sl-panel {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: min(480px, 92vw);
+  z-index: 41;
+  background: var(--color-surface);
+  box-shadow: var(--shadow-lg);
+  overflow-y: auto;
+  padding: var(--space-6);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  animation: sl-panel-in 0.22s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.sl-pre {
+  margin: 0;
+  padding: var(--space-3);
+  background: var(--color-bg);
+  border: 1px solid var(--color-divider);
+  border-radius: var(--radius-md);
+  font-family: ui-monospace, "SF Mono", Menlo, monospace;
+  font-size: 12px;
+  line-height: 1.6;
+  white-space: pre-wrap;
+  word-break: break-word;
+  overflow-y: auto;
+  max-height: 320px;
+}
+
+.sl-review {
+  padding: var(--space-3);
+  background: var(--color-bg);
+  border: 1px solid var(--color-divider);
+  border-radius: var(--radius-md);
+}
+
+@keyframes sl-panel-in {
+  from { transform: translateX(100%); }
+  to { transform: translateX(0); }
+}
+@keyframes sl-backdrop-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@media (max-width: 880px) {
+  .sl-shell { grid-template-columns: 1fr; }
+  .sl-sidebar {
+    position: static;
+    height: auto;
+    border-right: none;
+    border-bottom: 1px solid var(--color-divider);
+    padding-right: 0;
+    padding-bottom: var(--space-6);
+  }
+}
