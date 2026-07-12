@@ -36,9 +36,10 @@ const SEARCH_QUERIES = [
 
 // Always included regardless of search discovery. Add repos here when a
 // known skill keeps slipping through the queries. Optional `install`
-// overrides the generic git-clone snippet.
+// overrides the generic git-clone snippet; optional `category` overrides
+// the keyword heuristic.
 const PINNED_REPOS = [
-  { repo: "shadcn/improve", install: "npx skills add shadcn/improve" },
+  { repo: "shadcn/improve", install: "npx skills add shadcn/improve", category: "Development" },
   { repo: "nextlevelbuilder/ui-ux-pro-max-skill" },
 ];
 
@@ -75,7 +76,7 @@ function categorize(name, desc) {
   if (has("design", "generative art", "canvas", "gif", "image", "svg", "animation", "creative", "illustration", "video", "figma", "artwork")) return "Design & Creative";
   if (has("writing", "comms", "email", "newsletter", "blog", "seo", "marketing", "content creation", "copywrit", "slack message")) return "Communication";
   if (has("workflow", "productivity", "planning", "tdd", "debugging", "memory", "automation", "brainstorm", "task management")) return "Workflows";
-  if (has("mcp", "coding", "code review", "api", "react", "frontend", "backend", "git", "developer", "framework", "sdk", "programming", "web app", "typescript", "python")) return "Development";
+  if (has("mcp", "coding", "code review", "api", "react", "frontend", "backend", "git", "developer", "framework", "sdk", "programming", "web app", "typescript", "python", "codebase", "refactor", "audit")) return "Development";
   return "Other";
 }
 
@@ -240,12 +241,14 @@ async function pinnedRepos(known) {
     const existing = known.get(key) || found.get(key);
     if (existing) {
       if (pin.install) existing.install = pin.install;
+      if (pin.category) existing.category = pin.category;
       continue;
     }
     try {
       const r = await ghJson(`https://api.github.com/repos/${pin.repo}`);
       const entry = repoEntry(r);
       if (pin.install) entry.install = pin.install;
+      if (pin.category) entry.category = pin.category;
       found.set(key, entry);
     } catch (e) {
       console.warn(`pinned repo ${pin.repo} failed: ${e.message}`);
